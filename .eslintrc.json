@@ -1,0 +1,60 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "overrides": [
+        {
+          "files": ["*.jsx", "*.js"]
+        }
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-nested-ternary": "off",
+        "react/button-has-type": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "react/jsx-no-comment-textnodes": "off",
+        "import/prefer-default-export": "off",
+        "react/jsx-filename-extension": "off",
+        "import/no-named-as-default": "off",
+        "react/prop-types": "off",
+        "react/jsx-props-no-spreading": "off",
+        "no-useless-escape": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/forbid-prop-types": "off",
+        "jsx-a11y/interactive-supports-focus": "off",
+        "no-bitwise": "off",
+        "camelcase": "off",
+        "import/no-cycle": "off",
+        "react/destructuring-assignment": "off",
+        "jsx-a11y/control-has-associated-label": "warn",
+        "jsx-a11y/anchor-has-content": "warn",
+        "no-undef": "warn",
+        "no-restricted-syntax": "warn",
+        "no-underscore-dangle": "warn",
+        "radix": "warn",
+        "consistent-return": "warn",
+        "no-use-before-define": "warn",
+        "import/no-unresolved": "warn",
+        "no-plusplus": "warn",
+        "no-mixed-operators": "warn",
+        "react/no-unescaped-entities": "warn",
+        "react/require-default-props": "warn",
+        "no-param-reassign": "warn",
+        "no-unused-vars": "warn",
+        "max-len": "warn",
+        "no-shadow": "warn",
+        "react/no-array-index-key": "warn"
+    }
+}

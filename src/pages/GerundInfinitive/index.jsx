@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { toast } from 'react-hot-toast';
 import { faCircleCheck, faXmark } from '@fortawesome/free-solid-svg-icons';
-import st from './App.module.scss';
-import { ButtonGrey, ButtonBlue, ButtonYellow } from './components/Button';
+import st from './styles.module.scss';
+import { ButtonGrey, ButtonBlue, ButtonYellow } from '../../components/Button';
 import { list } from './library';
 
 const typeTiles = {
@@ -12,9 +12,22 @@ const typeTiles = {
   gerund_infinitive: 'Gerund or Infinitive',
 };
 
+// const getTime = (time) => {
+//   const minutes = Math.floor(time / 60);
+//   const seconds = Math.floor(time % 60);
+//   const formattedSeconds = seconds < 10 ? `0${seconds}` : seconds;
+
+//   if (minutes > 1) {
+//     return `0${minutes}:${formattedSeconds}`;
+//   }
+//   return `00:${formattedSeconds}`;
+// };
+
 const generateNumber = (max) => Math.floor(Math.random() * max - 0);
 
-function App() {
+function GerundInginitive() {
+  // const [time, setTime] = useState(0);
+  // const [isRunning, setIsRunning] = useState(false);
   const [isFinished, setIsFinished] = useState(false);
   const [data, setData] = useState(list);
   const [isViewResults, setIsViewResults] = useState(false);
@@ -25,13 +38,15 @@ function App() {
   const [word, setWord] = useState(data[generateNumber(data.length)]);
 
   const handleSelect = (type) => {
+    // if (!isRunning) setIsRunning(true);
+
     if (word.type === type) {
-      toast.success('Yey', { id: 'toast' });
+      toast.success('Yey', { position: 'top-right' });
 
       setCorrectAnswers((prev) => prev + 1);
       setResults((prev) => [{ ...word, result: 'correct' }, ...prev]);
     } else {
-      toast.error(`Wrong. The right answer is ${typeTiles[word.type]}`, { id: 'toast' });
+      toast.error(`Wrong. The right answer is ${typeTiles[word.type]}`, { position: 'top-right' });
 
       setWrongAnswers((prev) => prev + 1);
       setResults((prev) => [{ ...word, result: 'wrong' }, ...prev]);
@@ -43,6 +58,7 @@ function App() {
 
     if (!newData.length) {
       setIsFinished(true);
+      // setIsRunning(false);
       return;
     }
     setWord(newData[generateNumber(newData.length)]);
@@ -51,6 +67,18 @@ function App() {
   const handleToggleResults = () => {
     setIsViewResults((prev) => !prev);
   };
+
+  // const addTime = () => {
+  //   setTime(time + 1);
+  // };
+
+  // useEffect(() => {
+  //   let intervalId;
+  //   if (isRunning) {
+  //     intervalId = setInterval(addTime, 1000);
+  //   }
+  //   return () => clearInterval(intervalId);
+  // }, [time, isRunning]);
 
   return (
     <div className={st.container}>
@@ -97,6 +125,9 @@ function App() {
           </div>
         ) : (
           <>
+            {/* <div className={st.time}>
+              {getTime(time)}
+            </div> */}
             <div className={st.title}>
               {word?.title}
             </div>
@@ -135,4 +166,4 @@ function App() {
   );
 }
 
-export default App;
+export default GerundInginitive;

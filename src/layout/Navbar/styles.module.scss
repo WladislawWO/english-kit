@@ -1,0 +1,26 @@
+.container {
+  width: 300px;
+  background-color: #2464a5;
+}
+
+.listWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
+  a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+      border-right: 4px solid #fff;
+      color: #E0C3FC
+    }
+  }
+}
+
+.active {
+  border-right: 4px solid #fff;
+  color: #E0C3FC
+}
