@@ -10,6 +10,14 @@ const menu = [
     title: 'Irregular verbs',
     link: '/irregular-verbs',
   },
+  {
+    title: 'Prepositions',
+    link: '/prepositions',
+  },
+  {
+    title: 'Vocabulary',
+    link: '/vocabulary',
+  },
 ];
 
 export default function Navbar() {

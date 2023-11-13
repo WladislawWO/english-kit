@@ -1,6 +1,6 @@
 .container {
   width: 300px;
-  background-color: #2464a5;
+  background-color: rgba( 255,255, 255, 0.2);
 }
 
 .listWrapper {
@@ -13,14 +13,20 @@
     display: block;
     text-decoration: none;
     color: #fff;
+    font-weight: 600;
+    font-size: 18px;
     &:hover {
       border-right: 4px solid #fff;
-      color: #E0C3FC
+      color: #106f95
     }
   }
 }
 
 .active {
   border-right: 4px solid #fff;
-  color: #E0C3FC
+  // background-color: re;
+  color: #106f95FC !important;
+  a {
+    color: #106f95FC !important;
+  }
 }

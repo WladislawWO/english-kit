@@ -1,0 +1,33 @@
+.container {
+  width: 600px;
+  margin: 100px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 10px;
+  max-height: 400px;
+  overflow: auto;
+  background-color: rgba( 255,255, 255, 0.2); /* transparent white */
+  color: #fff;
+  font-size: 20px;
+  user-select: none;
+}
+
+.preposition {
+  background-color: #8aa7ec;
+  color: #8aa7ec;
+  padding: 0 10px;
+  margin: 0 5px;
+  width: 10px;
+  cursor: pointer;
+}
+
+.prepositionActive {
+  width: 10px;
+  background-color: rgba( 255,255, 255, 0.2);
+  color: #fff;
+  padding: 0 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
