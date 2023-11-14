@@ -1,5 +1,305 @@
 export const data = [
   {
+    word: 'congruous',
+    translation: 'відповідний',
+  },
+  {
+    word: 'incongruous',
+    translation: 'невідповідний, недоречний',
+  },
+  {
+    word: 'attire',
+    translation: 'наряд',
+  },
+  {
+    word: 'gown',
+    translation: 'плаття, мантія',
+  },
+  {
+    word: 'sneer',
+    translation: 'насмішка, глузування',
+  },
+  {
+    word: 'insomnia',
+    translation: 'безсоння',
+  },
+  {
+    word: 'resolution',
+    translation: 'вирішення a firm decision to do or not to do something.',
+  },
+  {
+    word: 'chronic',
+    translation: 'хронічний',
+  },
+  {
+    word: 'dandy',
+    translation: 'a man unduly devoted to style, neatness, and fashion in dress and appearance.',
+  },
+  {
+    word: 'chivalric',
+    translation: 'лицарський',
+  },
+  {
+    word: 'dating',
+    translation: 'датування',
+  },
+  {
+    word: 'regard',
+    translation: 'відношення',
+  },
+  {
+    word: 'contemplation',
+    translation: 'міркування',
+  },
+  {
+    word: 'austere',
+    translation: 'суворий',
+  },
+  {
+    word: 'devout',
+    translation: 'набожний',
+  },
+  {
+    word: 'daybreak',
+    translation: 'світанок',
+  },
+  {
+    word: 'leaden',
+    translation: 'свинцевий, сірий',
+  },
+  {
+    word: 'lifting',
+    translation: 'підйом',
+  },
+  {
+    word: 'crossway',
+    translation: 'перехрестя',
+  },
+  {
+    word: 'boar',
+    translation: 'кабан',
+  },
+  {
+    word: 'cobbles',
+    translation: 'бруківка',
+  },
+  {
+    word: 'cobbled path',
+    translation: 'брукована стежка',
+  },
+  {
+    word: 'scrap',
+    translation: 'брухт, шматочок',
+  },
+  {
+    word: 'litter',
+    translation: 'підстилка',
+  },
+  {
+    word: 'littered',
+    translation: 'засмічений',
+  },
+  {
+    word: 'smithy',
+    translation: 'кузня',
+  },
+  {
+    word: 'blacksmith',
+    translation: 'коваль',
+  },
+  {
+    word: 'spire',
+    translation: 'шпиль',
+  },
+  {
+    word: 'integrity',
+    translation: 'цілісність',
+  },
+  {
+    word: 'peer',
+    translation: 'ровесник, рівня',
+  },
+  {
+    word: 'churn',
+    translation: 'відтік',
+  },
+  {
+    word: 'disgruntled',
+    translation: 'незадоволений',
+  },
+  {
+    word: 'deem',
+    translation: 'вважати',
+  },
+  {
+    word: 'designate',
+    translation: 'призначати',
+  },
+  {
+    word: 'tailor',
+    translation: 'кравець',
+  },
+  {
+    word: 'nitty-gritty',
+    translation: "дріб'язковий",
+  },
+  {
+    word: 'delve',
+    translation: 'копатися',
+  },
+  {
+    word: 'indispensable',
+    translation: 'незамінний',
+  },
+  {
+    word: 'identifiable',
+    translation: 'ідентифікований',
+  },
+  {
+    word: 'patronage',
+    translation: 'патронат, опікування',
+  },
+  {
+    word: 'vary',
+    translation: 'змінюватися, відрізнятися',
+  },
+  {
+    word: 'incentive',
+    translation: 'стимул, заохочувальний',
+  },
+  {
+    word: 'comprehensive',
+    translation: 'комплексний, всебічний',
+  },
+  {
+    word: 'taxonomy',
+    translation: 'таксономія',
+  },
+  {
+    word: 'segmentation',
+    translation: 'сегментація',
+  },
+  {
+    word: 'behalf',
+    translation: 'від імені',
+  },
+  {
+    word: 'comply',
+    translation: 'дотримуватися',
+  },
+  {
+    word: 'indiscreet',
+    translation: 'нескромний',
+  },
+  {
+    word: 'verbose',
+    translation: 'багатослівний',
+  },
+  {
+    word: 'sidestep',
+    translation: 'обійти стороною',
+  },
+  {
+    word: 'advent',
+    translation: 'прибуття',
+  },
+  {
+    word: 'observability',
+    translation: 'спостережливість',
+  },
+  {
+    word: 'elasticity',
+    translation: 'еластичність',
+  },
+  {
+    word: 'sprawl',
+    translation: 'розростання',
+  },
+  {
+    word: 'snitch',
+    translation: 'стукач',
+  },
+  {
+    word: 'proximity',
+    translation: 'близькість',
+  },
+  {
+    word: 'dispersed',
+    translation: 'розсіяний',
+  },
+  {
+    word: 'tunable',
+    translation: 'настроюється',
+  },
+  {
+    word: 'in advance',
+    translation: 'наперед',
+  },
+  {
+    word: 'tradeoff',
+    translation: 'компроміс',
+  },
+  {
+    word: 'burden',
+    translation: 'тягар',
+  },
+  {
+    word: 'accommodate',
+    translation: 'розмістити',
+  },
+  {
+    word: 'converge',
+    translation: 'сходитися',
+  },
+  {
+    word: 'warehouse',
+    translation: 'склад',
+  },
+  {
+    word: 'discourteously',
+    translation: 'неввічливо',
+  },
+  {
+    word: 'reticent',
+    translation: 'небагатослівний',
+  },
+  {
+    word: 'snigger',
+    translation: 'snigger',
+  },
+  {
+    word: 'amicably',
+    translation: 'дружньо',
+  },
+  {
+    word: 'fatigue',
+    translation: 'втома',
+  },
+  {
+    word: 'deucedly',
+    translation: 'дуже, надзвичайно',
+  },
+  {
+    word: 'sly',
+    translation: 'хитрий',
+  },
+  {
+    word: 'unassailable',
+    translation: 'незаперечний',
+  },
+  {
+    word: 'propound',
+    translation: 'пропонувати',
+  },
+  {
+    word: 'febrile',
+    translation: 'гарячковий',
+  },
+  {
+    word: 'discomposure',
+    translation: 'розчарування',
+  },
+  {
     word: 'button up',
     translation: 'Застібати',
   },

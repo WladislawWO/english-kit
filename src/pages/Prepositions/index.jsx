@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { data } from './constants';
-import { shuffle } from './utils';
+import { shuffle } from '../../utils';
 import st from './styles.module.scss';
 
 export function Prepositions() {
