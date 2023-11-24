@@ -1,0 +1,17 @@
+.select {
+  :global {
+    .react-select__control {
+      width: 300px;
+    }
+    .react-select__option {
+      color: #106f95fc;
+      cursor: pointer;
+    }
+    .react-select__menu {
+      width: 300px;
+    }
+    .react-select__option--is-selected {
+      background-color: rgba(13, 76, 134, 0.2);
+    }
+  }
+}

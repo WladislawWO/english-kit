@@ -1,6 +1,13 @@
+import { flushSync } from 'react-dom';
+
 export const generateNumber = (max) => Math.floor(Math.random() * max - 0);
 
-export const convertToVocab = (list) => list.map((i) => ({ word: i.split('=')[0].trim(), translation: i.split('=')[1].trim() }));
+export const convertToVocab = (list) => list.split(/\n+/g).map((i) => ({
+  word: i.split('=')[0].trim(),
+  translation: i.split('=')[1].trim(),
+  ...(i.split('=').length === 3 && { explanation: i.split('=')[2].trim() }),
+  subject: 'Pluto',
+}));
 
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-plusplus */
@@ -20,3 +27,11 @@ export function shuffle(array) {
 }
 
 export const formatLocalStorageData = (data) => (data ? data.split(',') : []);
+
+export const updateWithAnimation = (callback) => {
+  document.startViewTransition(() => {
+    flushSync(() => {
+      callback();
+    });
+  });
+};

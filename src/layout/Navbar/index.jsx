@@ -3,20 +3,20 @@ import st from './styles.module.scss';
 
 const menu = [
   {
-    title: 'Gerund / Infinitive',
+    title: 'Vocabulary',
     link: '/',
-  },
-  {
-    title: 'Irregular verbs',
-    link: '/irregular-verbs',
   },
   {
     title: 'Prepositions',
     link: '/prepositions',
   },
   {
-    title: 'Vocabulary',
-    link: '/vocabulary',
+    title: 'Irregular verbs',
+    link: '/irregular-verbs',
+  },
+  {
+    title: 'Gerund / Infinitive',
+    link: '/gerund-infinitive',
   },
 ];
 

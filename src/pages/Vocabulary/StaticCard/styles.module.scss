@@ -1,0 +1,25 @@
+.container {
+  border-radius: 10px;
+  padding: 25px;
+  max-height: 400px;
+  overflow: auto;
+  background-color: rgba( 255,255, 255, 0.2); /* transparent white */
+  color: #fff;
+  font-size: 45px;
+  position: relative;
+}
+
+.statisticCardWrapper {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 105px;
+  max-height: 600px;
+}
+
+.staticRow {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}

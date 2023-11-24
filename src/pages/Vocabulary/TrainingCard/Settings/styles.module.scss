@@ -1,0 +1,33 @@
+.settingsIcon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 18px;
+}
+
+.statisticCardWrapper {
+  font-size: 20px;
+}
+
+.settingsContainer {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 300px;
+}
+
+.settingsRow {
+  cursor: pointer;
+  user-select: none;
+  width: fit-content;
+}
+
+.subjectWrapper {
+  cursor: pointer;
+  user-select: none;
+  width: fit-content;
+  margin-top: 10px;
+}

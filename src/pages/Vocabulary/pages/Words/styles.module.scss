@@ -1,0 +1,13 @@
+.container {
+  border-radius: 10px;
+  overflow: auto;
+  background-color: #ffffff33;
+  color: #fff;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

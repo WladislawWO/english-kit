@@ -7,6 +7,7 @@ import MainLayout from '../layout/MainLayout';
 import IrregularVerbs from '../pages/IrregularVerbs';
 import { Prepositions } from '../pages/Prepositions';
 import { Vocabulary } from '../pages/Vocabulary';
+import { Words } from '../pages/Vocabulary/pages/Words';
 
 export const router = createBrowserRouter([
   {
@@ -15,7 +16,11 @@ export const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <GerundInfinitive />,
+        element: <Vocabulary />,
+      },
+      {
+        path: '/vocabulary/words',
+        element: <Words />,
       },
       {
         path: '/irregular-verbs',
@@ -26,8 +31,8 @@ export const router = createBrowserRouter([
         element: <Prepositions />,
       },
       {
-        path: '/vocabulary',
-        element: <Vocabulary />,
+        path: '/gerund-infinitive',
+        element: <GerundInfinitive />,
       },
     ],
   },

@@ -1,11 +1,908 @@
 export const data = [
   {
+    word: 'off the record',
+    translation: 'неофіційно',
+    subject: 'Pluto',
+  },
+  {
+    word: 'incarnate',
+    translation: 'втілений',
+    subject: 'Pluto',
+  },
+  {
+    word: 'yoke',
+    translation: 'ярмо',
+    subject: 'Pluto',
+  },
+  {
+    word: 'nefarious',
+    translation: '',
+    explanation: '(especially of activities) morally bad',
+    subject: 'Pluto',
+  },
+  {
+    word: 'to begin with',
+    translation: 'по-перше',
+    subject: 'Pluto',
+  },
+  {
+    word: 'how come',
+    translation: 'як так',
+    subject: 'Pluto',
+  },
+  {
+    word: 'clearance',
+    translation: '',
+    explanation: 'official authorization for something to proceed or take place.',
+    subject: 'Pluto',
+  },
+  {
+    word: 'decimate',
+    translation: 'знищити',
+    subject: 'Pluto',
+  },
+  {
+    word: 'prevail',
+    translation: 'перемогти',
+    explanation: 'to get control or influence',
+    subject: 'Pluto',
+  },
+  {
+    word: 'suitor',
+    translation: 'залицяльник',
+    subject: 'Pluto',
+  },
+  {
+    word: 'rogue',
+    translation: '',
+    explanation: 'behaving in ways that are not expected or not normal, often in a way that causes damage',
+    subject: 'Pluto',
+  },
+  {
+    word: 'forlorn',
+    translation: 'жалюгідний',
+    explanation: 'покинутий',
+    subject: 'Pluto',
+  },
+  {
+    word: 'disposal',
+    translation: 'право розпоряджатися',
+    subject: 'Pluto',
+  },
+  {
+    word: 'wellspring',
+    translation: 'джерело',
+    subject: 'Pluto',
+  },
+  {
+    word: 'impairment',
+    translation: 'порушення',
+    explanation: 'погіршення',
+    subject: 'Pluto',
+  },
+  {
+    word: 'crosshairs',
+    translation: 'перехрестя прицілу',
+    subject: 'Pluto',
+  },
+  {
+    word: 'spineless',
+    translation: 'безхребетний',
+    subject: 'Pluto',
+  },
+  {
+    word: 'flaw',
+    translation: 'недолік',
+    subject: 'Pluto',
+  },
+  {
+    word: 'sleuthing',
+    translation: 'розвідка',
+    subject: 'Pluto',
+  },
+  {
+    word: 'discern',
+    translation: 'розрізняти',
+    subject: 'Pluto',
+  },
+  {
+    word: 'alloy',
+    translation: 'сплав',
+    subject: 'Pluto',
+  },
+  {
+    word: 'firsthand',
+    translation: 'з перших вуст',
+    explanation: 'coming from the original source or personal experience; gained or learned directly.',
+    subject: 'Pluto',
+  },
+  {
+    word: 'malfunction',
+    translation: 'несправність',
+    subject: 'Pluto',
+  },
+  {
+    word: 'ripe',
+    translation: 'стиглий',
+  },
+  {
+    word: 'ramble',
+    translation: 'ramble',
+  },
+  {
+    word: 'stomp',
+    translation: 'тупати',
+  },
+  {
+    word: 'elated',
+    translation: 'піднесений',
+  },
+  {
+    word: 'tedium',
+    translation: 'нудьга',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'sewer',
+    translation: 'каналізація',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'indignity',
+    translation: 'приниження гідності',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'dispense',
+    translation: '',
+    explanation: 'distribute or provide (a service or information) to a number of people.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'mash',
+    translation: 'пюре',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'aversion',
+    translation: 'відраза',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'transgress',
+    translation: 'переходити межі',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'beseech',
+    translation: 'благати',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'typhoon',
+    translation: 'тайфун',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'implore',
+    translation: 'благати',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'radiate',
+    translation: 'випромінювати',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'brat',
+    translation: 'нахаба',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'recite',
+    translation: 'декламувати',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'witty',
+    translation: 'дотепний',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'wart',
+    translation: 'бородавка',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'revered',
+    translation: 'шанований',
+    explanation: 'feel deep respect or admiration for (something).',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'peculiarities',
+    translation: 'особливості',
+    explanation: 'an odd or unusual feature or habit.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'harbor',
+    translation: 'гавань',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'cater',
+    translation: 'обслуговувати',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'immaculate',
+    translation: 'бездоганний',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'merit',
+    translation: 'заслуги',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'malformed',
+    translation: 'неправильно сформований',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'medial',
+    translation: 'медіальний',
+    explanation: 'середній',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'confine',
+    translation: 'рубіж',
+    explanation: 'рубіж',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'inane',
+    translation: 'безглуздий',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'exquisite',
+    translation: 'відмінний',
+    explanation: 'extremely beautiful and, typically, delicate.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'parched',
+    translation: 'пересохлі',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'quench',
+    translation: 'гасити',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'affliction',
+    translation: 'страждання',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'ire',
+    translation: 'гнів',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'boast',
+    translation: 'хвалитися',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'dispute',
+    translation: 'суперечка',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'transcended',
+    translation: '',
+    explanation: 'be or go beyond the range or limits of (something abstract, typically a conceptual field or division).F',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'affectionate',
+    translation: 'ласкавий',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'auspicious',
+    translation: 'сприятливий',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'profound',
+    translation: 'глибокий',
+    explanation: '(of a state, quality, or emotion) very great or intense. (of a person or statement) having or showing great knowledge or insight.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'discharge',
+    translation: 'звільняти',
+    explanation: 'tell (someone) officially that they can or must leave a place or situation. allow (a liquid, gas, or other substance) to flow out from where it has been confined.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'slosh',
+    translation: 'плескатися',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'squall',
+    translation: 'шквал',
+    explanation: 'репетувати',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'brawl',
+    translation: 'бійка',
+    explanation: 'вуличний скандал',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'mock',
+    translation: 'глузування',
+    explanation: 'tease or laugh at in a scornful or contemptuous manner.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'dim',
+    translation: 'невиразний',
+    explanation: '(of a light, color, or illuminated object) not shining brightly or clearly.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'buckwheat',
+    translation: 'гречка',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'bribe',
+    translation: 'хабар',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'stealth',
+    translation: 'скритність',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'stealthy',
+    translation: 'непомітний',
+    explanation: 'behaving, done, or made in a cautious and surreptitious manner, so as not to be seen or heard.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'invalid',
+    translation: 'недійсний',
+    explanation: 'інвалід',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'Humility',
+    translation: 'Смирення',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'disown',
+    translation: 'відмовлятися',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'smith',
+    translation: 'коваль',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'brittle',
+    translation: 'крихкий',
+    explanation: 'hard but liable to break or shatter easily.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'blend',
+    translation: 'суміш',
+    explanation: 'змішувати',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'gaudy',
+    translation: 'яскравий',
+    explanation: 'extravagantly bright or showy, typically so as to be tasteless.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'rigid',
+    translation: 'жорсткий',
+    explanation: 'unable to bend or be forced out of shape; not flexible. not able to be changed or adapted.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'etiquette',
+    translation: 'етикет',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'incessantly',
+    translation: 'безперервно',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'toil',
+    translation: 'важка праця',
+    explanation: 'work extremely hard or incessantly.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'dove',
+    translation: 'голуб',
+    explanation: 'a stocky seed- or fruit-eating bird with a small head, short legs, and a cooing voice. Doves are generally smaller and more delicate than pigeons, but many kinds have been given both names. a person who advocates peaceful or conciliatory policies, especially in foreign affairs.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'brothel',
+    translation: 'бордель',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'fester',
+    translation: 'гноїтися',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'sty',
+    translation: 'свинарник',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'lilt',
+    translation: 'такт',
+    explanation: 'a characteristic rising and falling of the voice when speaking; a pleasant gentle accent.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'indelicate',
+    translation: 'неделікатний',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'remiss',
+    translation: 'недбало',
+    explanation: 'недопустимість (lacking care or attention to duty; negligent.)',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'wholeheartedly',
+    translation: 'від усього серця',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'reproach',
+    translation: 'докор',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'firm',
+    translation: 'міцний',
+    explanation: 'having a solid, almost unyielding surface or structure. in a resolute and determined manner.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'puppet',
+    translation: 'puppet',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'shrine',
+    translation: 'святиня',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'chaperon',
+    translation: 'супровід',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'whooshing',
+    translation: 'свистячий',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'ember',
+    translation: 'вуглинка',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'recede',
+    translation: 'відступати',
+    explanation: 'go or move back or further away from a previous position.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'deformed',
+    translation: 'деформований',
+    explanation: 'зіпсований, калікуватий, спотворений, (of a person or part of the body) not having the normal or natural shape or form; misshapen.',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'crane',
+    translation: 'кран',
+    explanation: 'журавель',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'apprentice',
+    translation: 'учень',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'pitiable',
+    translation: 'жалюгідний',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'howling',
+    translation: 'виття',
+    explanation: 'кричущий, ревіння',
+    subject: 'Blue Eye Samurai',
+  },
+  {
+    word: 'duds',
+    translation: 'манатки',
+    explanation: 'дурниці',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'abysmal',
+    translation: 'безодні',
+    explanation: 'глибокий, жахливий extremely bad; appalling.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'parlor',
+    translation: 'салон',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'phrenology',
+    translation: 'френологія',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'cranium',
+    translation: 'черепна коробка',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'regale',
+    translation: 'entertain or amuse (someone) with talk.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'momentarily',
+    translation: 'на мить',
+    explanation: 'моментально',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'tremendous',
+    translation: 'величезний',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'came about',
+    translation: 'сталося',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'dapper',
+    translation: 'витончений',
+    explanation: 'neat and trim in dress and appearance (typically used of a man).',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'plucked',
+    translation: 'общипаний',
+    explanation: 'зірваний',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'soaring',
+    translation: 'ширяючий',
+    explanation: 'планерування, flying or rising high in the air.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'panache',
+    translation: 'хизування',
+    explanation: 'flamboyant confidence of style or manner.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'yonder',
+    translation: 'туди',
+    explanation: 'at some distance in the direction indicated; over there.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'tonic',
+    translation: 'тонік',
+    explanation: 'a medicinal substance taken to give a feeling of vigor or well-being.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'belle',
+    translation: 'красуня',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'hospitality',
+    translation: 'гостинність',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'decrepit',
+    translation: 'дряхлий',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'hog',
+    translation: 'свиня',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'slop',
+    translation: 'помиї',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'ornery',
+    translation: 'запальний',
+    explanation: 'likely to get angry and argue with people',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'reimbursement',
+    translation: 'відшкодування',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'reimburse',
+    translation: 'відшкодувати',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'gist',
+    translation: 'суть',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'paraphrasing',
+    translation: 'перефразування',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'charade',
+    translation: 'шарада',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'retribution',
+    translation: 'відплата',
+    explanation: 'punishment inflicted on someone as vengeance for a wrong or criminal act.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'confidant',
+    translation: 'довірена особа',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'specimen',
+    translation: 'зразок',
+    explanation: 'an individual animal, plant, piece of a mineral, etc., used as an example of its species or type for scientific study or display',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'rambunctious',
+    translation: 'розгульний',
+    explanation: 'галасливий, невгамовний',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'molasses',
+    translation: 'патока',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'antagonizing',
+    translation: 'cause (someone) to become hostile.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'aspire',
+    translation: 'прагнути',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'flattering',
+    translation: 'улесливий',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'ascertain',
+    translation: 'Встановлювати причину',
+    explanation: "з'ясовувати, find (something) out for certain; make sure of.",
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'neophyte',
+    translation: 'a person who is new to a subject, skill, or belief.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'inquiry',
+    translation: 'запит',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'fortuitous',
+    translation: 'випадковий',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'cheeky',
+    translation: 'нахабний',
+    explanation: 'безцеремонний',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'pussyfoot',
+    translation: 'обережна людина',
+    explanation: 'act in a cautious or noncommittal way.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'beloved',
+    translation: 'коханий',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'obliged',
+    translation: "зобов'язаний",
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'overzealous',
+    translation: 'надмірно старанний',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'tad',
+    translation: 'трохи',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'spectacularly',
+    translation: 'вражаюче',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'tend',
+    translation: 'Cхильний',
+    explanation: 'прагнути, regularly or frequently behave in a particular way or have a certain characteristic.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'regalia',
+    translation: 'регалії',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'posthaste',
+    translation: 'дуже швидко',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'reiterate',
+    translation: 'повторити',
+    explanation: 'say something again or a number of times, typically for emphasis or clarity.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'valet',
+    translation: "a man's personal male attendant, responsible for his clothes and appearance.",
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'rustling',
+    translation: 'шелестіння',
+    explanation: 'round up and steal (cattle, horses, or sheep).',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'cattle',
+    translation: 'велика рогата худоба',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'wager',
+    translation: 'ставка',
+    explanation: "risk (a sum of money or valued item) against someone else's on the basis of the outcome of an unpredictable event; bet.",
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'hangman',
+    translation: 'кат',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'deputy',
+    translation: 'заступник',
+    explanation: 'представник, a person whose immediate superior is a senior figure within an organization and who is empowered to act as a substitute for this superior.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'rifle',
+    translation: 'гвинтівка',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'saloon',
+    translation: 'салон',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'cue',
+    translation: 'натяк',
+    explanation: 'сигнал',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'endeavor',
+    translation: 'намагатися',
+    explanation: 'try hard to do or achieve something.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'malarkey',
+    translation: 'meaningless talk; nonsense.',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'despise',
+    translation: 'скрутне становище',
+    explanation: 'to feel a strong dislike for someone or something because you think that that person or thing is bad or has no value',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'quandary',
+    translation: 'Складна ситуація',
+    subject: 'Django Unchained',
+  },
+  {
+    word: 'alas',
+    translation: 'нажаль',
+    explanation: 'an expression of grief, pity, or concern.',
+    subject: 'Django Unchained',
+  },
+  {
     word: 'congruous',
     translation: 'відповідний',
   },
   {
     word: 'incongruous',
-    translation: 'невідповідний, недоречний',
+    translation: 'невідповідний',
+    explanation: 'недоречний',
   },
   {
     word: 'attire',
@@ -13,11 +910,13 @@ export const data = [
   },
   {
     word: 'gown',
-    translation: 'плаття, мантія',
+    translation: 'плаття',
+    explanation: 'мантія',
   },
   {
     word: 'sneer',
-    translation: 'насмішка, глузування',
+    translation: 'насмішка',
+    explanation: 'глузування',
   },
   {
     word: 'insomnia',
@@ -25,7 +924,8 @@ export const data = [
   },
   {
     word: 'resolution',
-    translation: 'вирішення a firm decision to do or not to do something.',
+    translation: 'вирішення',
+    explanation: 'a firm decision to do or not to do something.',
   },
   {
     word: 'chronic',
@@ -33,7 +933,8 @@ export const data = [
   },
   {
     word: 'dandy',
-    translation: 'a man unduly devoted to style, neatness, and fashion in dress and appearance.',
+    translation: 'чепурун',
+    explanation: 'a man unduly devoted to style, neatness, and fashion in dress and appearance.',
   },
   {
     word: 'chivalric',
@@ -65,7 +966,8 @@ export const data = [
   },
   {
     word: 'leaden',
-    translation: 'свинцевий, сірий',
+    translation: 'свинцевий',
+    explanation: 'сірий',
   },
   {
     word: 'lifting',
@@ -89,7 +991,8 @@ export const data = [
   },
   {
     word: 'scrap',
-    translation: 'брухт, шматочок',
+    translation: 'брухт',
+    explanation: 'шматочок',
   },
   {
     word: 'litter',
@@ -117,7 +1020,8 @@ export const data = [
   },
   {
     word: 'peer',
-    translation: 'ровесник, рівня',
+    translation: 'ровесник',
+    explanation: 'рівня',
   },
   {
     word: 'churn',
@@ -157,19 +1061,23 @@ export const data = [
   },
   {
     word: 'patronage',
-    translation: 'патронат, опікування',
+    translation: 'патронат',
+    explanation: 'опікування',
   },
   {
     word: 'vary',
-    translation: 'змінюватися, відрізнятися',
+    translation: 'змінюватися',
+    explanation: 'відрізнятися',
   },
   {
     word: 'incentive',
-    translation: 'стимул, заохочувальний',
+    translation: 'стимул',
+    explanation: 'заохочувальний',
   },
   {
     word: 'comprehensive',
-    translation: 'комплексний, всебічний',
+    translation: 'комплексний',
+    explanation: 'всебічний',
   },
   {
     word: 'taxonomy',
@@ -277,7 +1185,8 @@ export const data = [
   },
   {
     word: 'deucedly',
-    translation: 'дуже, надзвичайно',
+    translation: 'дуже',
+    explanation: 'надзвичайно',
   },
   {
     word: 'sly',
@@ -343,7 +1252,8 @@ export const data = [
   },
   {
     word: 'countenance',
-    translation: 'Обличчя, вираз обличчя',
+    translation: 'Обличчя',
+    explanation: 'вираз обличчя',
   },
   {
     word: 'dissolute',
@@ -383,7 +1293,8 @@ export const data = [
   },
   {
     word: 'corroborate',
-    translation: 'Підтримати, підтвердити',
+    translation: 'Підтримати',
+    explanation: 'підтвердити',
   },
   {
     word: 'district',
@@ -411,7 +1322,7 @@ export const data = [
   },
   {
     word: 'splendid',
-    translation: 'Чудовий, блискучий',
+    translation: 'Чудовий',
   },
   {
     word: 'bony',
@@ -450,206 +1361,6 @@ export const data = [
     translation: 'Зрада',
   },
   {
-    word: 'congruous',
-    translation: '',
-  },
-  {
-    word: 'incongruous',
-    translation: '',
-  },
-  {
-    word: 'attire',
-    translation: '',
-  },
-  {
-    word: 'gown',
-    translation: '',
-  },
-  {
-    word: 'sneer',
-    translation: '',
-  },
-  {
-    word: 'insomnia',
-    translation: '',
-  },
-  {
-    word: 'resolution ( a firm decision to do or not to do something. )',
-    translation: '',
-  },
-  {
-    word: 'chronic',
-    translation: '',
-  },
-  {
-    word: 'dandy ( a man unduly devoted to style, neatness, and fashion in dress and appearance. )',
-    translation: '',
-  },
-  {
-    word: 'chivalric',
-    translation: '',
-  },
-  {
-    word: 'dating (датування)',
-    translation: '',
-  },
-  {
-    word: 'regard',
-    translation: '',
-  },
-  {
-    word: 'contemplation ( міркування )',
-    translation: '',
-  },
-  {
-    word: 'austere',
-    translation: '',
-  },
-  {
-    word: 'devout',
-    translation: '',
-  },
-  {
-    word: 'daybreak',
-    translation: '',
-  },
-  {
-    word: 'leaden',
-    translation: '',
-  },
-  {
-    word: 'lifting',
-    translation: '',
-  },
-  {
-    word: 'crossway',
-    translation: '',
-  },
-  {
-    word: 'boar',
-    translation: '',
-  },
-  {
-    word: 'cobbles',
-    translation: '',
-  },
-  {
-    word: 'cobbled path',
-    translation: '',
-  },
-  {
-    word: 'scrap',
-    translation: '',
-  },
-  {
-    word: 'litter',
-    translation: '',
-  },
-  {
-    word: 'littered',
-    translation: '',
-  },
-  {
-    word: 'smithy',
-    translation: '',
-  },
-  {
-    word: 'blacksmith',
-    translation: '',
-  },
-  {
-    word: 'spire',
-    translation: '',
-  },
-  {
-    word: 'integrity',
-    translation: '',
-  },
-  {
-    word: 'peer',
-    translation: '',
-  },
-  {
-    word: 'churn',
-    translation: '',
-  },
-  {
-    word: 'disgruntled',
-    translation: '',
-  },
-  {
-    word: 'deem',
-    translation: '',
-  },
-  {
-    word: 'designate',
-    translation: '',
-  },
-  {
-    word: 'tailor',
-    translation: '',
-  },
-  {
-    word: '****Leveraging (Leverage)****',
-    translation: '',
-  },
-  {
-    word: 'nitty-gritty',
-    translation: '',
-  },
-  {
-    word: 'delve',
-    translation: '',
-  },
-  {
-    word: 'indispensable',
-    translation: '',
-  },
-  {
-    word: 'identifiable ',
-    translation: '',
-  },
-  {
-    word: 'patronage',
-    translation: '',
-  },
-  {
-    word: 'vary',
-    translation: '',
-  },
-  {
-    word: 'incentive',
-    translation: '',
-  },
-  {
-    word: 'comprehensive',
-    translation: '',
-  },
-  {
-    word: 'taxonomy',
-    translation: '',
-  },
-  {
-    word: 'segmentation',
-    translation: '',
-  },
-  {
-    word: 'behalf',
-    translation: '',
-  },
-  {
-    word: 'comply',
-    translation: '',
-  },
-  {
-    word: 'indiscreet',
-    translation: '',
-  },
-  {
-    word: 'verbose',
-    translation: '',
-  },
-  {
     word: 'pallid',
     translation: 'Блідий',
   },
@@ -659,12 +1370,13 @@ export const data = [
   },
   {
     word: 'cram',
-    translation: 'Зубрити, Запихати',
-    explanation: 'Completely fill to the point that it appears to be overflowing',
+    translation: 'Зубрити',
+    explanation: 'Запихати, Completely fill to the point that it appears to be overflowing',
   },
   {
     word: 'cluster',
-    translation: 'Кластер, группа, Скупчення',
+    translation: 'Кластер',
+    explanation: 'группа, Скупчення',
   },
   {
     word: 'compliance',
@@ -684,7 +1396,8 @@ export const data = [
   },
   {
     word: 'imperative',
-    translation: 'Вимагальний, crucial, essential',
+    translation: 'Вимагальний',
+    explanation: 'crucial, essential',
   },
   {
     word: 'fern',
@@ -712,7 +1425,8 @@ export const data = [
   },
   {
     word: 'protrude',
-    translation: 'Випирати, стричати',
+    translation: 'Випирати',
+    explanation: 'стричати',
   },
   {
     word: 'pleasant',
@@ -736,7 +1450,8 @@ export const data = [
   },
   {
     word: 'startling',
-    translation: 'Вражаючий, приголомшливий',
+    translation: 'Вражаючий',
+    explanation: 'приголомшливий',
   },
   {
     word: 'detain',
@@ -773,7 +1488,8 @@ export const data = [
   },
   {
     word: 'contemplate',
-    translation: 'Споглядати, міркувати',
+    translation: 'Споглядати',
+    explanation: 'міркувати',
   },
   {
     word: 'hut',
@@ -785,7 +1501,8 @@ export const data = [
   },
   {
     word: 'wobble',
-    translation: 'Коливання, дрижати',
+    translation: 'Коливання',
+    explanation: 'дрижати',
   },
   {
     word: 'deteriorate',
@@ -805,7 +1522,8 @@ export const data = [
   },
   {
     word: 'distributed',
-    translation: 'Поширений, поширюється',
+    translation: 'Поширений',
+    explanation: 'поширюється',
   },
   {
     word: 'point out',
@@ -814,7 +1532,8 @@ export const data = [
   },
   {
     word: 'liability',
-    translation: 'Відповідальність, забовязання',
+    translation: 'Відповідальність',
+    explanation: 'забовязання',
   },
   {
     word: 'rejuvenated',
@@ -875,7 +1594,8 @@ export const data = [
   },
   {
     word: 'annihilation',
-    translation: 'Анагіляція, повне знищення',
+    translation: 'Анагіляція',
+    explanation: 'повне знищення',
   },
   {
     word: 'over-driven',
@@ -891,7 +1611,8 @@ export const data = [
   },
   {
     word: 'comprise',
-    translation: 'Входити до складу, включати',
+    translation: 'Входити до складу',
+    explanation: 'включати',
   },
   {
     word: 'concurrency',
@@ -911,12 +1632,13 @@ export const data = [
   },
   {
     word: 'preen',
-    translation: 'Прибирати, шпилька',
-    explanation: 'Clean feathers with beack',
+    translation: 'Прибирати',
+    explanation: 'шпилька, Clean feathers with beack',
   },
   {
     word: 'crony',
-    translation: 'Дружка, кума',
+    translation: 'Дружка',
+    explanation: 'кума',
   },
   {
     word: 'misconception',
@@ -945,7 +1667,8 @@ export const data = [
   },
   {
     word: 'coup (koo)',
-    translation: 'Переворот, вдалий хід',
+    translation: 'Переворот',
+    explanation: 'вдалий хід',
   },
   {
     word: 'grinder',
@@ -973,7 +1696,8 @@ export const data = [
   },
   {
     word: 'fracture',
-    translation: 'Перелом, злом',
+    translation: 'Перелом',
+    explanation: 'злом',
   },
   {
     word: 'rehearse',
@@ -1041,7 +1765,8 @@ export const data = [
   },
   {
     word: 'compelling',
-    translation: 'Переконливий, привабливий',
+    translation: 'Переконливий',
+    explanation: 'привабливий',
   },
   {
     word: 'figurine',
@@ -1081,7 +1806,8 @@ export const data = [
   },
   {
     word: 'accessory',
-    translation: 'аксесуар, співучасник',
+    translation: 'аксесуар',
+    explanation: 'співучасник',
   },
   {
     word: 'ordain',
@@ -1145,7 +1871,8 @@ export const data = [
   },
   {
     word: 'mob',
-    translation: 'чернь, люди які голосували за януковича',
+    translation: 'чернь',
+    explanation: 'люди які голосували за януковича',
   },
   {
     word: 'commemorate',
@@ -1189,7 +1916,8 @@ export const data = [
   },
   {
     word: 'mistresses',
-    translation: 'хазʼяйка, коханка',
+    translation: 'хазʼяйка',
+    explanation: 'коханка',
   },
   {
     word: 'fortitude',
@@ -1221,7 +1949,8 @@ export const data = [
   },
   {
     word: 'discord',
-    translation: 'незгода, розходитися в думках',
+    translation: 'незгода',
+    explanation: 'розходитися в думках',
   },
   {
     word: 'atrocity',
@@ -1237,7 +1966,8 @@ export const data = [
   },
   {
     word: 'ingenuity',
-    translation: 'дотепність, винахідливість',
+    translation: 'дотепність',
+    explanation: 'винахідливість',
   },
   {
     word: 'invincible',
@@ -1257,7 +1987,8 @@ export const data = [
   },
   {
     word: 'acquire',
-    translation: 'придбати, досягти',
+    translation: 'придбати',
+    explanation: 'досягти',
   },
   {
     word: 'unmolested',
@@ -1265,7 +1996,8 @@ export const data = [
   },
   {
     word: 'laden',
-    translation: 'навантаженний, обтяженний',
+    translation: 'навантаженний',
+    explanation: 'обтяженний',
   },
   {
     word: 'Allocate',
@@ -1301,7 +2033,8 @@ export const data = [
   },
   {
     word: 'oppression',
-    translation: 'гніт, жорстокість',
+    translation: 'гніт',
+    explanation: 'жорстокість',
   },
   {
     word: 'flask',
