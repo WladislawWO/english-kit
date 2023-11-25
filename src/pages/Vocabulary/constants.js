@@ -1,5 +1,416 @@
 export const data = [
   {
+    word: 'seething',
+    translation: '',
+    explanation: 'extremely angry but unable or unwilling to express it clearly',
+    subject: 'Pluto',
+  },
+  {
+    word: 'alongside',
+    translation: 'поряд',
+    subject: 'Pluto',
+  },
+  {
+    word: 'plunge',
+    translation: 'зануритися',
+    subject: 'Pluto',
+  },
+  {
+    word: 'legitimate',
+    translation: 'законним',
+    subject: 'Pluto',
+  },
+  {
+    word: 'conclusive',
+    translation: 'остаточний',
+    subject: 'Pluto',
+  },
+  {
+    word: 'dampen',
+    translation: 'make less strong or intense.',
+    subject: 'Pluto',
+  },
+  {
+    word: 'successor',
+    translation: 'наступник',
+    subject: 'Pluto',
+  },
+  {
+    word: 'clandestine',
+    translation: 'підпільний',
+    subject: 'Pluto',
+  },
+  {
+    word: 'scruff',
+    translation: 'загривок',
+    subject: 'Pluto',
+  },
+  {
+    word: 'damnable',
+    translation: 'проклятий',
+    subject: 'Pluto',
+  },
+  {
+    word: 'squeamish',
+    translation: 'бридливий',
+    subject: 'Pluto',
+  },
+  {
+    word: 'sublime',
+    translation: 'extremely good, beautiful, or enjoyable',
+    subject: 'Pluto',
+  },
+  {
+    word: 'grainy',
+    translation: 'зернистий',
+    subject: 'Pluto',
+  },
+  {
+    word: 'inmate',
+    translation: "ув'язнений",
+    subject: 'Pluto',
+  },
+  {
+    word: 'interconnected',
+    translation: "взаємопов'язані",
+    subject: 'Pluto',
+  },
+  {
+    word: 'piqued',
+    translation: 'роздратований',
+    subject: 'Pluto',
+  },
+  {
+    word: 'confinement',
+    translation: "ув'язнення",
+    subject: 'Pluto',
+  },
+  {
+    word: 'solitary',
+    translation: 'поодинокий',
+    explanation: 'done or existing alone.',
+    subject: 'Pluto',
+  },
+  {
+    word: 'dense',
+    translation: 'щільний',
+    explanation: '(of a person) stupid.',
+    subject: 'Pluto',
+  },
+  {
+    word: 'mourn',
+    translation: 'оплакувати',
+    subject: 'Pluto',
+  },
+  {
+    word: 'discretion',
+    translation: '',
+    explanation: 'the ability to behave without causing embarrassment or attracting too much attention, especially by keeping information secret. the right or ability to decide something:',
+    subject: 'Pluto',
+  },
+  {
+    word: 'level with me',
+    translation: 'to speak honestly to (someone)',
+    subject: 'Pluto',
+  },
+  {
+    word: 'bliss',
+    translation: 'блаженство',
+    subject: 'Pluto',
+  },
+  {
+    word: 'hunch',
+    translation: 'передчуття',
+    subject: 'Pluto',
+  },
+  {
+    word: 'grudge',
+    translation: 'образа',
+    subject: 'Pluto',
+  },
+  {
+    word: 'culprit',
+    translation: 'винуватець',
+    subject: 'Pluto',
+  },
+  {
+    word: 'endgame',
+    translation: 'ендшпіль',
+    subject: 'Pluto',
+  },
+  {
+    word: 'cling',
+    translation: 'чіплятися',
+    subject: 'Pluto',
+  },
+  {
+    word: 'impunity',
+    translation: 'безкарність',
+    subject: 'Pluto',
+  },
+  {
+    word: 'out with it',
+    translation: 'say what you are thinking.',
+    subject: 'Pluto',
+  },
+  {
+    word: 'pester',
+    translation: 'приставати',
+    subject: 'Pluto',
+  },
+  {
+    word: 'actuator',
+    translation: 'датчик',
+    explanation: 'привід',
+    subject: 'Pluto',
+  },
+  {
+    word: 'moniker',
+    translation: 'прізвисько',
+    subject: 'Pluto',
+  },
+  {
+    word: 'by the by',
+    translation: 'до речі',
+    subject: 'Pluto',
+  },
+  {
+    word: 'walkabout',
+    translation: 'прогулянка',
+    subject: 'Pluto',
+  },
+  {
+    word: 'bestow',
+    translation: 'дарувати',
+    subject: 'Pluto',
+  },
+  {
+    word: 'skittish',
+    translation: 'норовливий',
+    explanation: '(of people and animals) nervous or easily frightened. (of a person) not serious and likely to change their beliefs or opinions often',
+    subject: 'Pluto',
+  },
+  {
+    word: 'depict',
+    translation: 'зображувати',
+    subject: 'Pluto',
+  },
+  {
+    word: 'squiggle',
+    translation: 'каракулі',
+    subject: 'Pluto',
+  },
+  {
+    word: 'malady',
+    translation: 'хвороба',
+    subject: 'Pluto',
+  },
+  {
+    word: 'uphold',
+    translation: 'підтримувати',
+    subject: 'Pluto',
+  },
+  {
+    word: 'stance',
+    translation: 'позиція',
+    explanation: 'стійка',
+    subject: 'Pluto',
+  },
+  {
+    word: 'calamity',
+    translation: 'лихо',
+    subject: 'Pluto',
+  },
+  {
+    word: 'gulf',
+    translation: 'затока',
+    subject: 'Pluto',
+  },
+  {
+    word: 'heckle',
+    translation: '',
+    explanation: 'interrupt (a public speaker) with derisive or aggressive comments or abuse.',
+    subject: 'Pluto',
+  },
+  {
+    word: 'grim',
+    translation: 'похмурий',
+    explanation: 'extremely bad, worrying, or without hope',
+    subject: 'Pluto',
+  },
+  {
+    word: 'gall',
+    translation: '',
+    explanation: 'rudeness and the quality of being unable to understand that your behaviour or what you say is not acceptable to other people:',
+    subject: 'Pluto',
+  },
+  {
+    word: 'righteous',
+    translation: 'справедливий',
+    subject: 'Pluto',
+  },
+  {
+    word: 'peacenik',
+    translation: 'миролюбець',
+    subject: 'Pluto',
+  },
+  {
+    word: 'decisively',
+    translation: 'рішуче',
+    subject: 'Pluto',
+  },
+  {
+    word: 'overt',
+    translation: 'відкритий',
+    explanation: 'done or shown openly; plainly or readily apparent, not secret or hidden.',
+    subject: 'Pluto',
+  },
+  {
+    word: 'pariah',
+    translation: 'an outcast',
+    explanation: 'a person who is not accepted by a social group, especially because they are not liked, respected, or trusted',
+    subject: 'Pluto',
+  },
+  {
+    word: 'downright',
+    translation: 'відверто',
+    explanation: '(especially of something bad) extremely or very great:',
+    subject: 'Pluto',
+  },
+  {
+    word: 'sugarcoat',
+    translation: '',
+    explanation: 'to make something seem more positive or pleasant than it really is',
+    subject: 'Pluto',
+  },
+  {
+    word: 'menace',
+    translation: 'загроза',
+    subject: 'Pluto',
+  },
+  {
+    word: 'bungle',
+    translation: 'погана робота',
+    explanation: 'to do something wrong, in a careless or stupid way',
+    subject: 'Pluto',
+  },
+  {
+    word: 'contentious',
+    translation: 'спірний',
+    subject: 'Pluto',
+  },
+  {
+    word: 'jury',
+    translation: 'присяжні',
+    explanation: 'a body of people (typically twelve in number) sworn to give a verdict in a legal case on the basis of evidence submitted to them in court.',
+    subject: 'Pluto',
+  },
+  {
+    word: 'eviscerate',
+    translation: 'потрошити',
+    subject: 'Pluto',
+  },
+  {
+    word: 'heinous',
+    translation: 'мерзенний',
+    subject: 'Pluto',
+  },
+  {
+    word: 'repulsive',
+    translation: 'огидний',
+    subject: 'Pluto',
+  },
+  {
+    word: 'dump',
+    translation: 'звалище',
+    explanation: 'скидати. To put down or drop something in a careless way',
+    subject: 'Pluto',
+  },
+  {
+    word: 'employ',
+    translation: 'найняти',
+    explanation: 'to have someone work or do a job for you and pay them for it',
+    subject: 'Pluto',
+  },
+  {
+    word: 'keg',
+    translation: 'бочка',
+    subject: 'Pluto',
+  },
+  {
+    word: 'withstand',
+    translation: 'витримати',
+    subject: 'Pluto',
+  },
+  {
+    word: 'blowback',
+    translation: 'віддача',
+    subject: 'Pluto',
+  },
+  {
+    word: 'pulverize',
+    translation: 'подрібнити',
+    subject: 'Pluto',
+  },
+  {
+    word: 'rally',
+    translation: "з'їзд",
+    subject: 'Pluto',
+  },
+  {
+    word: 'annul',
+    translation: 'анулювати',
+    subject: 'Pluto',
+  },
+  {
+    word: 'repeal',
+    translation: 'скасувати',
+    subject: 'Pluto',
+  },
+  {
+    word: 'usher',
+    translation: '',
+    explanation: 'to show someone where they should go, or to make someone go where you want them to go',
+    subject: 'Pluto',
+  },
+  {
+    word: 'hubris',
+    translation: 'зарозумілість',
+    subject: 'Pluto',
+  },
+  {
+    word: 'abhorrent',
+    translation: 'огидний',
+    subject: 'Pluto',
+  },
+  {
+    word: 'head off',
+    translation: 'перехопити',
+    explanation: 'intercept and cause someone or something to turn aside.',
+    subject: 'Pluto',
+  },
+  {
+    word: 'autopsy',
+    translation: 'розтин',
+    subject: 'Pluto',
+  },
+  {
+    word: 'presume',
+    translation: 'припустити',
+    subject: 'Pluto',
+  },
+  {
+    word: 'viable',
+    translation: 'життєздатний',
+    subject: 'Pluto',
+  },
+  {
+    word: 'copycat',
+    translation: 'імітатор',
+    explanation: 'denoting an action, typically a crime, carried out in imitation of another.',
+    subject: 'Pluto',
+  },
+  {
     word: 'off the record',
     translation: 'неофіційно',
     subject: 'Pluto',
@@ -1228,6 +1639,7 @@ export const data = [
   {
     word: 'shed',
     translation: 'Сарай',
+    explanation: 'проливати',
   },
   {
     word: 'retort',
@@ -1718,6 +2130,7 @@ export const data = [
   {
     word: 'custody',
     translation: 'Опіка',
+    explanation: 'арешт',
   },
   {
     word: 'dune',
