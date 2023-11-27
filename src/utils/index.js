@@ -6,7 +6,8 @@ export const convertToVocab = (list) => list.split(/\n+/g).map((i) => ({
   word: i.split('=')[0].trim(),
   translation: i.split('=')[1].trim(),
   ...(i.split('=').length === 3 && { explanation: i.split('=')[2].trim() }),
-  subject: 'Pluto',
+  // subject: 'Pluto',
+  subject: 'The lord of the Rings',
 }));
 
 /* eslint-disable no-param-reassign */
