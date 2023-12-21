@@ -9,15 +9,17 @@ export function Footer({
         <button onClick={handleSetVisible} className={st.showButton}>Show</button>
         <button onClick={handleNext} className={st.showButton}>Next</button>
         <button onClick={handleKnow} className={st.showButton}>I know</button>
-        <button onClick={handleNotKnow} className={st.showButton}>I don't know</button>
       </div>
 
-      <button
-        onClick={handleSaveTheResults}
-        className={st.showButton}
-      >
-        Save the results
-      </button>
+      <div className={st.footerLeft}>
+        <button onClick={handleNotKnow} className={st.showButton}>I don't know</button>
+        <button
+          onClick={handleSaveTheResults}
+          className={st.showButton}
+        >
+          Save the results
+        </button>
+      </div>
     </div>
   );
 }

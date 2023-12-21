@@ -13,6 +13,8 @@ export function Settings({
   isLearntOnly,
   subject,
   chooseSubject,
+  handleExcludeLearntWords,
+  excludeLearntWords,
 }) {
   return (
     <div className={st.settingsContainer}>
@@ -31,6 +33,11 @@ export function Settings({
       <div onClick={handleIsTranslateToEnglish} className={st.settingsRow}>
         <input type="checkbox" checked={isTranslateToEnglish} />
         Translate to english
+      </div>
+
+      <div onClick={handleExcludeLearntWords} className={st.settingsRow}>
+        <input type="checkbox" checked={excludeLearntWords} />
+        Exclude learnt words
       </div>
 
       <div className={st.subjectWrapper}>

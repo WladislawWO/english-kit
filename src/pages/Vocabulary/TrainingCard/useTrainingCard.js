@@ -16,6 +16,7 @@ export const useTrainingCard = () => {
   const [isSettings, setIsSettings] = useState(false);
   const [isLearntOnly, setIsLearntOnly] = useState(false);
   const [isToLearnOnly, setIsToLearnOnly] = useState(false);
+  const [excludeLearntWords, setExcludeLearntWords] = useState(true);
   const [isTranslateToEnglish, setIsTranslateToEnglish] = useState(false);
   const [isWordsShow, setWordsShow] = useState(false);
   const [isCorrectAnswersShow, setCorrectAnswersShow] = useState(false);
@@ -30,12 +31,15 @@ export const useTrainingCard = () => {
     } else if (isToLearnOnly) {
       result = result.filter((i) => wordsToLearn.includes(i.word));
     }
+    if (excludeLearntWords) {
+      result = result.filter((i) => !learntWords.includes(i.word));
+    }
     if (subject) {
       result = result.filter((i) => i.subject === subject.value);
     }
 
     return shuffle(result);
-  }, [isLearntOnly, isToLearnOnly, subject]);
+  }, [isLearntOnly, isToLearnOnly, subject, excludeLearntWords]);
 
   const item = list[activeItem] || {};
 
@@ -105,6 +109,10 @@ export const useTrainingCard = () => {
     setIsSettings((state) => !state);
   };
 
+  const handleExcludeLearntWords = () => {
+    setExcludeLearntWords((state) => !state);
+  };
+
   const handleIsLearntOnly = () => {
     setIsLearntOnly((state) => !state);
     setIsToLearnOnly(false);
@@ -150,6 +158,8 @@ export const useTrainingCard = () => {
     openWrongAnswers,
     closeWrongAnswers,
     handleIsTranslateToEnglish,
+    handleExcludeLearntWords,
+    excludeLearntWords,
     isTranslateToEnglish,
     isWordsShow,
     isCorrectAnswersShow,

@@ -27,6 +27,8 @@ export function TrainingCard() {
     openWrongAnswers,
     closeWrongAnswers,
     handleIsTranslateToEnglish,
+    handleExcludeLearntWords,
+    excludeLearntWords,
     isTranslateToEnglish,
     isWordsShow,
     isCorrectAnswersShow,
@@ -108,11 +110,13 @@ export function TrainingCard() {
           handleIsLearntOnly={handleIsLearntOnly}
           handleIsToLearnOnly={handleIsToLearnOnly}
           handleSettings={handleSettings}
+          handleExcludeLearntWords={handleExcludeLearntWords}
+          chooseSubject={chooseSubject}
+          handleIsTranslateToEnglish={handleIsTranslateToEnglish}
+          excludeLearntWords={excludeLearntWords}
           isLearntOnly={isLearntOnly}
           isToLearnOnly={isToLearnOnly}
           subject={subject}
-          chooseSubject={chooseSubject}
-          handleIsTranslateToEnglish={handleIsTranslateToEnglish}
           isTranslateToEnglish={isTranslateToEnglish}
         />
       )}
