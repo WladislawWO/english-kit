@@ -6,8 +6,8 @@ export const convertToVocab = (list) => list.split(/\n+/g).map((i) => ({
   word: i.split('=')[0].trim(),
   translation: i.split('=')[1].trim(),
   ...(i.split('=').length === 3 && { explanation: i.split('=')[2].trim() }),
-  // subject: 'Pluto',
-  subject: 'The lord of the Rings',
+  // subject: 'The lord of the Rings',
+  // subject: 'The Innocence of Father Brown',
 }));
 
 /* eslint-disable no-param-reassign */
@@ -36,3 +36,11 @@ export const updateWithAnimation = (callback) => {
     });
   });
 };
+
+export function debounce(func, timeout = 300) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { func.apply(this, args); }, timeout);
+  };
+}

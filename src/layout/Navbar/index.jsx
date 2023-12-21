@@ -7,6 +7,10 @@ const menu = [
     link: '/',
   },
   {
+    title: 'Collocations & Phrasal verbs',
+    link: '/phrasal-verbs',
+  },
+  {
     title: 'Prepositions',
     link: '/prepositions',
   },

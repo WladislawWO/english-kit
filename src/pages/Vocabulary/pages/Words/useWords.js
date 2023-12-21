@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react';
-import { formatLocalStorageData, shuffle } from '../../../../utils';
+import { useEffect, useMemo, useState } from 'react';
+import { debounce, formatLocalStorageData, shuffle } from '../../../../utils';
 import { VOCAB_CORRECT_ANSWERS, VOCAB_INCORRECT_ANSWERS } from '../../../../constants/localStorage';
 import { data } from '../../constants';
 import {
@@ -13,6 +13,7 @@ export const useWords = () => {
   const [sort, setSort] = useState(null);
   const [subject, setSubject] = useState(null);
   const [phase, setPhase] = useState(null);
+  const [selected, setSelected] = useState([]);
 
   const list = useMemo(() => {
     let result = data;
@@ -47,10 +48,39 @@ export const useWords = () => {
     setSubject(selectedOption.value ? selectedOption : null);
   };
 
+  const handleAddSelected = debounce((values) => setSelected(values));
+
+  const onTextSelect = () => {
+    const selection = document.getSelection();
+    const selectionList = selection.rangeCount > 0 && selection.getRangeAt(0).cloneContents();
+
+    // for (let i = 0; i < selection.rangeCount; i++) {
+    //   selectionList.push(selection.getRangeAt(i).cloneContents());
+    // }
+
+    // console.log('##', { selectionList: Array.from(selectionList?.children).map((i) => i.id) });
+    // console.log('##', selectionList);
+    const res = Array.from(selectionList).map((i) => i.id);
+
+    // handleAddSelected(['fortify', 'vanity']);
+  };
+
+  // console.log('##', selected);
+
+  // useEffect(() => {
+  //   const listener = document.addEventListener('onselectionchange', onTextSelect);
+  //   document.onselectionchange = onTextSelect;
+
+  //   return () => {
+  //     document.removeEventListener('onselectionchange', listener);
+  //   };
+  // }, []);
+
   return {
     chooseSubject,
     onPhaseChange,
     onSortChange,
+    selected,
     sort,
     phase,
     list,

@@ -1,0 +1,28 @@
+.container {
+  border-radius: 10px;
+  background-color: #ffffff33;
+  color: #fff;
+  position: relative;
+  padding: 25px;
+}
+
+.footer {
+  margin-top: 15px;
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.phaseSelect {
+  :global {
+    .react-select__control {
+      width: 150px;
+    }
+    .react-select__menu {
+      width: 150px;
+    }
+  }
+}

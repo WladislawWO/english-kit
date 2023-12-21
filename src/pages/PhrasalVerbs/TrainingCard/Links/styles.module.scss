@@ -1,0 +1,13 @@
+.linkContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 25px;
+  cursor: pointer;
+  position: relative!important;
+  top: unset!important;
+  right: unset!important;
+  left: unset!important;
+}

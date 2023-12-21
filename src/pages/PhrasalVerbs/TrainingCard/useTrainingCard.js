@@ -1,15 +1,18 @@
 import { useMemo, useState } from 'react';
 import toast from 'react-hot-toast';
-import { data } from '../constants';
+import { phrasalVerbsData } from '../constants';
 import { shuffle, formatLocalStorageData, updateWithAnimation } from '../../../utils';
-import { VOCAB_CORRECT_ANSWERS, VOCAB_INCORRECT_ANSWERS } from '../../../constants/localStorage';
+import { PHRASAL_VERBS_CORRECT_ANSWERS, PHRASAL_VERBS_INCORRECT_ANSWERS } from '../../../constants/localStorage';
 
 export const useTrainingCard = () => {
-  const defaultLearntWords = formatLocalStorageData(localStorage.getItem(VOCAB_CORRECT_ANSWERS));
-  const defaultWordsToLearn = formatLocalStorageData(localStorage.getItem(VOCAB_INCORRECT_ANSWERS));
+  const defaultLearntWords = formatLocalStorageData(
+    localStorage.getItem(PHRASAL_VERBS_CORRECT_ANSWERS),
+  );
+  const defaultWordsToLearn = formatLocalStorageData(
+    localStorage.getItem(PHRASAL_VERBS_INCORRECT_ANSWERS),
+  );
 
   const [activeItem, setActiveItem] = useState(0);
-  const [subject, setSubject] = useState(null);
   const [correct, setCorrect] = useState([]);
   const [inCorrect, setIncorrect] = useState([]);
   const [isVisible, setIsVisible] = useState(false);
@@ -24,18 +27,15 @@ export const useTrainingCard = () => {
   const [wordsToLearn, setWordsToLearn] = useState(defaultWordsToLearn);
 
   const list = useMemo(() => {
-    let result = data;
+    let result = phrasalVerbsData;
     if (isLearntOnly) {
       result = result.filter((i) => learntWords.includes(i.word));
     } else if (isToLearnOnly) {
       result = result.filter((i) => wordsToLearn.includes(i.word));
     }
-    if (subject) {
-      result = result.filter((i) => i.subject === subject.value);
-    }
 
     return shuffle(result);
-  }, [isLearntOnly, isToLearnOnly, subject]);
+  }, [isLearntOnly, isToLearnOnly]);
 
   const item = list[activeItem] || {};
 
@@ -58,10 +58,6 @@ export const useTrainingCard = () => {
   };
   const closeWrongAnswers = () => {
     updateWithAnimation(() => setWrongAnswersShow(false));
-  };
-
-  const chooseSubject = (selectedOption) => {
-    setSubject(selectedOption?.value ? selectedOption : null);
   };
 
   const handleNext = () => {
@@ -126,8 +122,8 @@ export const useTrainingCard = () => {
     const correctResult = Array.from(new Set([...newLearntWords, ...correctAnswersValues]));
     const incorrectResult = Array.from(new Set([...newWordsToLearn, ...incorrectAnswersValues]));
 
-    localStorage.setItem(VOCAB_CORRECT_ANSWERS, correctResult.join(','));
-    localStorage.setItem(VOCAB_INCORRECT_ANSWERS, incorrectResult.join(','));
+    localStorage.setItem(PHRASAL_VERBS_CORRECT_ANSWERS, correctResult.join(','));
+    localStorage.setItem(PHRASAL_VERBS_INCORRECT_ANSWERS, incorrectResult.join(','));
     setLearntWords(correctResult);
     setWordsToLearn(incorrectResult);
   };
@@ -142,7 +138,6 @@ export const useTrainingCard = () => {
     handleSettings,
     handleIsLearntOnly,
     handleIsToLearnOnly,
-    chooseSubject,
     openWords,
     closeWords,
     openCorrectAnswers,
@@ -155,7 +150,6 @@ export const useTrainingCard = () => {
     isCorrectAnswersShow,
     isWrongAnswersShow,
     list,
-    subject,
     isLearntOnly,
     isToLearnOnly,
     isSettings,

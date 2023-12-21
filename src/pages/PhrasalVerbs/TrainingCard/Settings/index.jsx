@@ -1,6 +1,4 @@
 import { CloseIcon } from '../../../../icons';
-import { options } from '../../options';
-import { Select } from '../../../../components/Select';
 import st from './styles.module.scss';
 
 export function Settings({
@@ -11,8 +9,6 @@ export function Settings({
   isTranslateToEnglish,
   isToLearnOnly,
   isLearntOnly,
-  subject,
-  chooseSubject,
 }) {
   return (
     <div className={st.settingsContainer}>
@@ -31,16 +27,6 @@ export function Settings({
       <div onClick={handleIsTranslateToEnglish} className={st.settingsRow}>
         <input type="checkbox" checked={isTranslateToEnglish} />
         Translate to english
-      </div>
-
-      <div className={st.subjectWrapper}>
-        <Select
-          value={subject}
-          onChange={chooseSubject}
-          options={options}
-          classNamePrefix="react-select"
-          placeholder="Subject"
-        />
       </div>
     </div>
   );

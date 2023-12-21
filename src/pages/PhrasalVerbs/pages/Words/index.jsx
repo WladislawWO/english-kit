@@ -6,23 +6,19 @@ import { Content } from './Content';
 export function Words() {
   const {
     onPhaseChange,
-    chooseSubject,
     onSortChange,
     selected,
     sort,
     list,
-    subject,
     phase,
   } = useWords();
 
   return (
     <div className={st.wrapper}>
       <Header
-        chooseSubject={chooseSubject}
         onPhaseChange={onPhaseChange}
         onSortChange={onSortChange}
         sort={sort}
-        subject={subject}
         wordsCount={list.length}
         phase={phase}
       />

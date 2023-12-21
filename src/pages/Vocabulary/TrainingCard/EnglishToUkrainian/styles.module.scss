@@ -1,0 +1,44 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  height: 130px;
+}
+
+.answer {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 0 10px;
+  margin: 0 5px;
+  width: 420px;
+  height: 45px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.word {
+  text-transform: capitalize;
+}
+
+.translationContainer {
+  position: relative;
+}
+
+.explanation {
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 5px;
+}
+
+.answerActive {
+  padding: 0 10px;
+  margin: 0 5px;
+  width: 200px;
+  cursor: pointer;
+  width: 420px;
+  min-height: 45px;
+  user-select: none;
+  text-transform: capitalize;
+}

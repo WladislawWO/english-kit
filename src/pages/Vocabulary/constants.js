@@ -1,5 +1,1178 @@
 export const data = [
   {
+    word: 'establish',
+    translation: 'встановити',
+    explanation: 'to start a company or organization that will continue for a long time. to start having a relationship with, or communicating with another person, company, country, or organization',
+  },
+  {
+    word: 'vary',
+    translation: 'vary',
+  },
+  {
+    word: 'replication',
+    translation: 'копіювання',
+  },
+  {
+    word: 'map',
+    translation: 'відображати',
+    explanation: 'to represent how the parts of something are organized or arranged',
+  },
+  {
+    word: 'foreword',
+    translation: 'передмова',
+  },
+  {
+    word: 'junction',
+    translation: 'перехрестя',
+    explanation: "з'єднання",
+  },
+  {
+    word: 'manful',
+    translation: 'мужній',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'descry',
+    translation: 'побачити',
+    explanation: 'розпізнати',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'anon',
+    translation: 'скоро',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'waft',
+    translation: 'віє',
+    explanation: 'to (cause to) move gently through the air',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'enmity',
+    translation: 'ворожнеча',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'brood',
+    translation: 'виводок',
+    explanation: 'a group of young birds all born at the same time. to think for a long time about things that make you sad, worried, or angry',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'blush',
+    translation: "рум'янець",
+    explanation: 'червоніти',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'dispel',
+    translation: 'розвіяти',
+    explanation: 'to remove fears, doubts, and false ideas, usually by proving them wrong or unnecessary',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'ere',
+    translation: 'before',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'thicket',
+    translation: 'зарості',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'despondently',
+    translation: 'пригнічено',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'foam',
+    translation: 'піна',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'bade',
+    translation: 'побажав',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'woe',
+    translation: 'горе',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'soil',
+    translation: 'ґрунт',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'fibre',
+    translation: 'клітковина',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'outlast',
+    translation: 'пережити',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'morn',
+    translation: 'morning',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'unheeded',
+    translation: 'без уваги',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'ablaze',
+    translation: 'палаючий',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'oar',
+    translation: 'весло',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'siege',
+    translation: 'облога',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'suffice',
+    translation: 'достатньо',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'prudence',
+    translation: 'розсудливість',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'plight',
+    translation: 'важке становище',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'crumble',
+    translation: 'розсипатися',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'gnaw',
+    translation: 'гризти',
+    explanation: 'to make you feel worried or uncomfortable',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'emissary',
+    translation: 'емісар',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'succour',
+    translation: 'допомога',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'onset',
+    translation: 'початок',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'jeopardy',
+    translation: 'небезпека',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'deduce',
+    translation: 'робити висновок',
+    explanation: '',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'stew',
+    translation: 'рагу',
+    explanation: 'занепокоєння',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'verse',
+    translation: 'вірш',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'galley',
+    translation: 'галера',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'poach',
+    translation: 'браконьєрство',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'flog',
+    translation: 'пороти',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'legality',
+    translation: 'законність',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'commence',
+    translation: 'почати',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'sass **',
+    translation: '** грубити',
+    explanation: 'talk or behaviour that is rude and shows no respect',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'precautions',
+    translation: 'запобіжні заходи',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'duplicitous',
+    translation: 'дволикий',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'inclination',
+    translation: 'схильність',
+    explanation: 'бажання. a feeling that you want to do a particular thing, or the fact that you prefer or are more likely to do a particular thing',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'hyena',
+    translation: 'гієна',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'analogy',
+    translation: 'аналогія',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'admittedly',
+    translation: 'звичайно',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'regiment',
+    translation: 'полк',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'kindle',
+    translation: 'запалити',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'affront',
+    translation: 'образа',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'hillbilly',
+    translation: '',
+    explanation: 'a person from a mountainous area of the US who has a simple way of life and is considered to be slightly stupid by people living in towns and cities',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'emancipate',
+    translation: 'звільняти',
+    explanation: 'розкріпачувати. set free, especially from legal, social, or political restrictions.',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'bust',
+    translation: 'бюст',
+    explanation: 'ударяти',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'correspondence',
+    translation: 'листування',
+    subject: 'The Hateful Eight',
+  },
+  {
+    word: 'unassailable',
+    translation: 'незаперечний',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'therefore',
+    translation: 'тому',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'heed',
+    translation: 'прислухатися',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'garble',
+    translation: 'перекручувати',
+    explanation: 'to make words or messages unclear and difficult to understand',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'infusion',
+    translation: 'настій',
+    explanation: 'the act of adding one thing to another to make it stronger or better',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'herb',
+    translation: 'трава',
+    explanation: 'a type of plant whose leaves are used in cooking to give flavour to particular dishes or in making medicine',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'vale',
+    translation: 'долина',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'cull',
+    translation: 'збирати',
+    explanation: 'If you cull animals or plants, you kill or remove them',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'tingle',
+    translation: 'поколювання',
+    explanation: 'to have a feeling as if a lot of sharp points are being put quickly and lightly into your body',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'fragrance',
+    translation: 'аромат',
+    explanation: 'a sweet or pleasant smell',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'dewy',
+    translation: 'росистий',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'dew',
+    translation: 'роса',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'lass',
+    translation: 'дівчина',
+    explanation: 'a girl or young woman',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'contain',
+    translation: 'стримувати',
+    explanation: '‘unable to contain their joy’',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'maim',
+    translation: 'калічити',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'dotage',
+    translation: 'старість',
+    explanation: 'old age, especially with some loss of mental ability',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'ignoble',
+    translation: 'неблагородний',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'handy',
+    translation: 'зручний',
+  },
+  {
+    word: 'explicitly',
+    translation: 'явно',
+  },
+  {
+    word: 'fine',
+    translation: 'штраф',
+  },
+  {
+    word: 'prevalent',
+    translation: 'поширений',
+  },
+  {
+    word: 'adhere',
+    translation: 'прилипати',
+  },
+  {
+    word: 'wack',
+    translation: 'відстій',
+    explanation: 'лажа',
+  },
+  {
+    word: 'abhor',
+    translation: 'дуже ненавидіти',
+  },
+  {
+    word: 'befuddled',
+    translation: 'спантеличений',
+  },
+  {
+    word: 'kerfuffle',
+    translation: 'безлад',
+    explanation: 'дурдом, хаос',
+  },
+  {
+    word: 'butterfingers',
+    translation: 'криворукий',
+  },
+  {
+    word: 'gizmo',
+    translation: 'штука',
+    explanation: 'приборчик',
+  },
+  {
+    word: 'poppycock',
+    translation: 'повна туфта',
+    explanation: 'дурниця',
+  },
+  {
+    word: 'sham',
+    translation: 'прикидатися',
+    explanation: 'підробка',
+  },
+  {
+    word: 'putative',
+    translation: '',
+    explanation: 'generally considered or reputed to be.',
+  },
+  {
+    word: 'ostensible',
+    translation: '',
+    explanation: 'stated or appearing to be true, but not necessarily so',
+  },
+  {
+    word: 'alleged',
+    translation: '',
+    explanation: 'said or thought by some people to be the stated bad or illegal thing, although you have no proof',
+  },
+  {
+    word: 'seeming',
+    translation: 'здається',
+    explanation: 'appearing to be real or true, but not necessarily being so; apparent.',
+  },
+  {
+    word: 'volition',
+    translation: 'воля',
+    explanation: 'бажання',
+  },
+  {
+    word: 'furthermore',
+    translation: 'крім того',
+  },
+  {
+    word: 'refine',
+    translation: 'уточнювати',
+  },
+  {
+    word: 'proffer',
+    translation: 'запропонувати',
+  },
+  {
+    word: 'meddle',
+    translation: 'втручатися',
+  },
+  {
+    word: 'violate',
+    translation: 'порушувати',
+  },
+  {
+    word: 'further',
+    translation: 'продовжувати',
+  },
+  {
+    word: 'subdue',
+    translation: 'підкорити',
+  },
+  {
+    word: 'erudite',
+    translation: 'освідчений',
+  },
+  {
+    word: 'disparate',
+    translation: 'незрівняний',
+    explanation: 'different in every way.',
+  },
+  {
+    word: 'exigent',
+    translation: 'терміновий',
+  },
+  {
+    word: 'aberrant',
+    translation: 'помилковий',
+  },
+  {
+    word: 'eloquent',
+    translation: 'переконливий',
+  },
+  {
+    word: 'irascible',
+    translation: 'нестриманий',
+  },
+  {
+    word: 'noxious',
+    translation: 'шкідливий',
+  },
+  {
+    word: 'propensity',
+    translation: 'схильність',
+    explanation: 'from the negative perspective',
+  },
+  {
+    word: 'proclivity',
+    translation: 'схильність',
+    explanation: 'from the negative perspective',
+  },
+  {
+    word: 'asunder',
+    translation: 'навпіл',
+    explanation: 'into forcefully separated pieces',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'quail',
+    translation: 'занепадати духом',
+    explanation: 'перепілка',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'cow',
+    translation: 'залякувати',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'siege',
+    translation: 'облога',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'breach',
+    translation: 'розрив',
+    explanation: 'an act of breaking a law, promise, agreement, or relationship',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'encumber',
+    translation: 'обтяжувати',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'blessedness',
+    translation: 'блаженство',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'reek',
+    translation: 'тхнути',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'assent',
+    translation: 'згода',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'veer',
+    translation: 'поворот',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'token',
+    translation: 'знак',
+    explanation: 'in token of farewell',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'lust',
+    translation: 'хіть',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'gleam',
+    translation: 'блиск',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'gurgle',
+    translation: 'булькання',
+    explanation: 'булькати',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'beacon',
+    translation: 'маяк',
+    explanation: 'a light or fire in a place that is easy to see, such as on the top of a hill, that acts as a warning or signal',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'wary',
+    translation: 'обачний',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'halt',
+    translation: 'зупинка',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'slope',
+    translation: 'схил',
+    explanation: 'наклін',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'ridge',
+    translation: 'хребет',
+    explanation: 'гребінь гори. a long, narrow raised part of a surface, especially a high edge along a mountain',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'hazard',
+    translation: 'небезпека',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'subtlety',
+    translation: 'тонкість',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'apt',
+    translation: 'доречний',
+    explanation: 'suitable or right for a particular situation',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'dregs',
+    translation: 'осад',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'restraint',
+    translation: 'стриманість',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'gentleness',
+    translation: 'лагідність',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'avail',
+    translation: 'бути корисним',
+    explanation: 'допомогати',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'wont',
+    translation: 'звичка',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'dotard',
+    translation: 'дурний',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'renown',
+    translation: 'популярність',
+    explanation: 'відомість',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'petty',
+    translation: "дріб'язковий",
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'charcoal',
+    translation: 'деревне вугілля',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'brazier',
+    translation: 'жаровня',
+    explanation: 'мангал',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'tarry',
+    translation: 'затримка',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'debriefing',
+    translation: 'підведення підсумків',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'behoove',
+    translation: '',
+    explanation: 'it is right for someone to do something',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'digress',
+    translation: 'відступ',
+    explanation: 'leave the main subject temporarily in speech or writing.',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'interrogate',
+    translation: 'допитувати',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'insubordination',
+    translation: 'непокірність',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'atrocious',
+    translation: 'жахливий',
+    explanation: 'of very bad quality',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'whack',
+    translation: 'вдарити',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'swill',
+    translation: 'помиї',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'implication',
+    translation: '',
+    explanation: 'the conclusion that can be drawn from something although it is not explicitly stated.',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'fraternize',
+    translation: 'брататися',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'levity',
+    translation: 'легковажність',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'acute',
+    translation: 'гострий',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'pestering',
+    translation: 'приставати',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'loquacious',
+    translation: 'балакучий',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'modest',
+    translation: 'скромний',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'reel',
+    translation: 'котушка',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'flammable',
+    translation: 'займистий',
+    explanation: 'easily set on fire.',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'prowess',
+    translation: 'доблесть',
+    explanation: 'skill or expertise in a particular activity or field. bravery in battle.',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'origin',
+    translation: 'походження',
+    explanation: 'the beginning or cause of something',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'smitten',
+    translation: 'вражений',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'smite',
+    translation: 'удар',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'venue',
+    translation: 'місце проведення',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'simpleton',
+    translation: 'недотепа',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'precede',
+    translation: 'попереджує',
+    explanation: 'come before (something) in time.',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'offspring',
+    translation: 'потомство',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'exploit',
+    translation: 'подвиг',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'ordeal',
+    translation: 'випробування',
+    explanation: 'a very unpleasant and painful or difficult experience. in the past, a way of trying to find out if someone is guilty or innocent by making them suffer extreme pain. If they did not die, this was considered proof from God that they were innocent',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'oblige',
+    translation: 'допомагати',
+    explanation: 'to please or help someone, especially by doing something they have asked you to do',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'club',
+    translation: 'кийок',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'divulge',
+    translation: 'розголошувати',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'orchard',
+    translation: 'фруктовий сад',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'ditch',
+    translation: 'канава',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'henceforth',
+    translation: 'відтепер',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'relay **',
+    translation: '',
+    explanation: '** to repeat something you have heard, or to broadcast a signal, message, or programme on television or radio',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'apparition',
+    translation: 'привид',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'elude',
+    translation: 'вислизати',
+    explanation: 'If something that you want eludes you, you do not succeed in achieving it',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'delirium',
+    translation: 'марення',
+    explanation: 'a state of being unable to think or speak clearly because of fever or mental confusion',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'induce',
+    translation: 'спонукати',
+    explanation: 'to persuade someone to do something',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'swine',
+    translation: 'свиня',
+    explanation: 'a person who you consider to be extremely unpleasant and unkind',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'debit',
+    translation: '',
+    explanation: '(a record of) money taken out of a bank account',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'disfigure',
+    translation: 'спотворювати',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'dismember',
+    translation: 'розчленувати',
+    explanation: 'cut off the limbs of (a person or animal).',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'disembowel',
+    translation: 'випотрошити',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'descendant',
+    translation: 'нащадок',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'guerilla',
+    translation: 'партизан',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'armada',
+    translation: 'армада',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'contrary',
+    translation: 'протилежний',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'conduct',
+    translation: 'проводити',
+    explanation: 'to organize and perform a particular activity:',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'dictate',
+    translation: 'диктувати',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'feat',
+    translation: 'подвиги',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'attic',
+    translation: 'мансарда',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'consequently',
+    translation: 'отже',
+    explanation: 'тому',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'saucer',
+    translation: 'блюдце',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'animosity',
+    translation: 'ворожість',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'scamper',
+    translation: 'бігати',
+    explanation: 'When small children and animals scamper, they run with small quick steps',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'attribute',
+    translation: 'атрибут',
+    explanation: 'a quality or characteristic that someone or something has',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'baffling',
+    translation: 'незрозумілий',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'bestow',
+    translation: 'дарувати',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'trepidation',
+    translation: 'трепет',
+    explanation: 'fear or worry about what is going to happen',
+    subject: 'Inglourious Basterds',
+  },
+  {
+    word: 'eradicate',
+    translation: 'викорінювати',
+  },
+  {
+    word: 'fortify',
+    translation: 'зміцнювати',
+  },
+  {
+    word: 'vanity',
+    translation: 'марнославство',
+  },
+  {
+    word: 'topple',
+    translation: 'перекинути',
+  },
+  {
+    word: 'feeble',
+    translation: 'слабкий',
+  },
+  {
+    word: 'awe',
+    translation: 'трепет',
+  },
+  {
+    word: 'bargain',
+    translation: 'домовленість',
+  },
+  {
+    word: 'feisty',
+    translation: '',
+    explanation: 'active, forceful, and full of determination:',
+  },
+  {
+    word: 'sundry',
+    translation: 'різні',
+  },
+  {
+    word: 'at hand',
+    translation: 'під рукою',
+  },
+  {
+    word: 'decency',
+    translation: 'порядність',
+  },
+  {
+    word: 'abomination',
+    translation: 'гидота',
+  },
+  {
+    word: 'graft',
+    translation: 'зчеплювати',
+    explanation: 'a shoot or twig inserted into a slit on the trunk or stem of a living plant, from which it receives sap.',
+  },
+  {
+    word: 'courageous',
+    translation: 'мужній',
+  },
+  {
+    word: 'unremittingly',
+    translation: '',
+    explanation: 'in a way that never improves or becomes less',
+  },
+  {
+    word: 'peasant',
+    translation: 'селянин',
+  },
+  {
+    word: 'pious',
+    translation: 'благочестивий',
+  },
+  {
+    word: 'besmirch',
+    translation: 'ганьбити',
+    explanation: 'damage the reputation of (someone or something) in the opinion of others.',
+  },
+  {
+    word: 'congregate',
+    translation: 'збиратися',
+  },
+  {
+    word: 'extinct',
+    translation: 'вимерлий',
+    subject: 'Pluto',
+  },
+  {
+    word: 'catalyst',
+    translation: 'каталізатор',
+    subject: 'Pluto',
+  },
+  {
+    word: 'adamant',
+    translation: 'непохитний',
+    subject: 'Pluto',
+  },
+  {
+    word: 'thus',
+    translation: 'таким чином',
+    subject: 'Pluto',
+  },
+  {
+    word: 'fruition',
+    translation: '',
+    explanation: 'the point at which a plan or project is realized.',
+    subject: 'Pluto',
+  },
+  {
+    word: 'extraneous',
+    translation: 'сторонні',
+    subject: 'Pluto',
+  },
+  {
+    word: 'equilibrium',
+    translation: 'рівновагу',
+    subject: 'Pluto',
+  },
+  {
+    word: 'expedite',
+    translation: 'прискорити',
+    subject: 'Pluto',
+  },
+  {
+    word: 'indestructible',
+    translation: 'непорушний',
+    subject: 'Pluto',
+  },
+  {
+    word: 'inexcusable',
+    translation: 'непростимо',
+    subject: 'Pluto',
+  },
+  {
     word: 'sombre',
     translation: 'похмурий',
     subject: 'The lord of the Rings',
@@ -977,10 +2150,12 @@ export const data = [
   {
     word: 'ripe',
     translation: 'стиглий',
+    explanation: 'готовий',
   },
   {
     word: 'ramble',
-    translation: 'ramble',
+    translation: 'прогулянка',
+    explanation: 'walk for pleasure, typically without a definite route.',
   },
   {
     word: 'stomp',
@@ -1351,7 +2526,7 @@ export const data = [
   },
   {
     word: 'puppet',
-    translation: 'puppet',
+    translation: 'Маріонетка',
     subject: 'Blue Eye Samurai',
   },
   {
@@ -1610,6 +2785,7 @@ export const data = [
   {
     word: 'fortuitous',
     translation: 'випадковий',
+    explanation: '(of something that is to your advantage) not planned, happening by chance',
     subject: 'Django Unchained',
   },
   {
@@ -2247,6 +3423,7 @@ export const data = [
   {
     word: 'transpire',
     translation: 'Виявлятися',
+    explanation: 'Відбуватися',
   },
   {
     word: 'imperative',

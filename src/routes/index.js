@@ -8,6 +8,8 @@ import IrregularVerbs from '../pages/IrregularVerbs';
 import { Prepositions } from '../pages/Prepositions';
 import { Vocabulary } from '../pages/Vocabulary';
 import { Words } from '../pages/Vocabulary/pages/Words';
+import { PhrasalVerbs } from '../pages/PhrasalVerbs';
+import { Words as PhrasalVerbsWords } from '../pages/PhrasalVerbs/pages/Words';
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +23,14 @@ export const router = createBrowserRouter([
       {
         path: '/vocabulary/words',
         element: <Words />,
+      },
+      {
+        path: '/phrasal-verbs',
+        element: <PhrasalVerbs />,
+      },
+      {
+        path: '/phrasal-verbs/list',
+        element: <PhrasalVerbsWords />,
       },
       {
         path: '/irregular-verbs',
