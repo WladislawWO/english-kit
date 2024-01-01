@@ -5,10 +5,6 @@ export const data = [
     explanation: 'to start a company or organization that will continue for a long time. to start having a relationship with, or communicating with another person, company, country, or organization',
   },
   {
-    word: 'vary',
-    translation: 'vary',
-  },
-  {
     word: 'replication',
     translation: 'копіювання',
   },
@@ -190,7 +186,6 @@ export const data = [
   {
     word: 'deduce',
     translation: 'робити висновок',
-    explanation: '',
     subject: 'The Hateful Eight',
   },
   {
@@ -230,8 +225,8 @@ export const data = [
     subject: 'The Hateful Eight',
   },
   {
-    word: 'sass **',
-    translation: '** грубити',
+    word: 'sass ',
+    translation: 'грубити',
     explanation: 'talk or behaviour that is rude and shows no respect',
     subject: 'The Hateful Eight',
   },
@@ -3220,10 +3215,6 @@ export const data = [
   {
     word: 'sly',
     translation: 'хитрий',
-  },
-  {
-    word: 'unassailable',
-    translation: 'незаперечний',
   },
   {
     word: 'propound',
