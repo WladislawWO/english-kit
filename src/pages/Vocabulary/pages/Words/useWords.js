@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { debounce, formatLocalStorageData, shuffle } from '../../../../utils';
 import { VOCAB_CORRECT_ANSWERS, VOCAB_INCORRECT_ANSWERS } from '../../../../constants/localStorage';
 import { data } from '../../constants';
@@ -52,17 +52,19 @@ export const useWords = () => {
 
   const onTextSelect = () => {
     const selection = document.getSelection();
-    const selectionList = selection.rangeCount > 0 && selection.getRangeAt(0).cloneContents();
+    const selectionList = [];
 
-    // for (let i = 0; i < selection.rangeCount; i++) {
-    //   selectionList.push(selection.getRangeAt(i).cloneContents());
-    // }
+    for (let i = 0; i < selection.rangeCount; i++) {
+      selectionList.push(selection.getRangeAt(i).cloneContents());
+    }
 
-    // console.log('##', { selectionList: Array.from(selectionList?.children).map((i) => i.id) });
-    // console.log('##', selectionList);
-    const res = Array.from(selectionList).map((i) => i.id);
+    const res = Array.from(selectionList[0]?.children || []).map((i) => i.id);
 
-    // handleAddSelected(['fortify', 'vanity']);
+    if (res?.length) handleAddSelected(res);
+  };
+
+  const uncheckAll = () => {
+    handleAddSelected([]);
   };
 
   // console.log('##', selected);
@@ -80,6 +82,7 @@ export const useWords = () => {
     chooseSubject,
     onPhaseChange,
     onSortChange,
+    uncheckAll,
     selected,
     sort,
     phase,

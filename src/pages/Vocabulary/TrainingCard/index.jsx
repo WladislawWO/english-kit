@@ -1,5 +1,5 @@
 import { useTrainingCard } from './useTrainingCard';
-import { SettingsIcon } from '../../../icons';
+import { ResetIcon, SettingsIcon } from '../../../icons';
 import { Settings } from './Settings';
 import { Footer } from './Footer';
 import { WordsList } from './WordsList';
@@ -28,6 +28,7 @@ export function TrainingCard() {
     closeWrongAnswers,
     handleIsTranslateToEnglish,
     handleExcludeLearntWords,
+    resetResults,
     excludeLearntWords,
     isTranslateToEnglish,
     isWordsShow,
@@ -48,7 +49,10 @@ export function TrainingCard() {
     <div className={st.container}>
       {!isSettings && !isWordsShow && !isCorrectAnswersShow && !isWrongAnswersShow && (
       <>
-        <SettingsIcon className={st.settingsIcon} onClick={handleSettings} />
+        <div className={st.rightMenu}>
+          <ResetIcon className={st.settingsIcon} onClick={resetResults} />
+          <SettingsIcon className={st.settingsIcon} onClick={handleSettings} />
+        </div>
         <div className={st.header}>
           <div onClick={openWords} className={st.headerItem}>
             Words:

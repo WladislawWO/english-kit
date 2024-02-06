@@ -4,3 +4,4 @@ export { default as YoutubeIcon } from './YoutubeIcon';
 export { default as BookIcon } from './BookIcon';
 export { default as SpeakIcon } from './SpeakIcon';
 export { default as TranslateIcon } from './TranslateIcon';
+export { default as ResetIcon } from './ResetIcon';

@@ -1,7 +1,7 @@
 import st from './styles.module.scss';
 import Links from '../../../TrainingCard/Links';
 
-export function Content({ list, selected }) {
+export function Content({ list }) {
   return (
     <div className={st.container}>
       {list.map((item) => (

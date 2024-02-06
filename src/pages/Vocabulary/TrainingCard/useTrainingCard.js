@@ -38,7 +38,7 @@ export const useTrainingCard = () => {
       result = result.filter((i) => i.subject === subject.value);
     }
 
-    return shuffle(result);
+    return shuffle(result).slice(0, 50);
   }, [isLearntOnly, isToLearnOnly, subject, excludeLearntWords]);
 
   const item = list[activeItem] || {};
@@ -125,6 +125,12 @@ export const useTrainingCard = () => {
     setActiveItem(0);
   };
 
+  const resetResults = () => {
+    setActiveItem(0);
+    setIncorrect([]);
+    setCorrect([]);
+  };
+
   const handleSaveTheResults = () => {
     const correctAnswersValues = correct.map((i) => i.word);
     const incorrectAnswersValues = inCorrect.map((i) => i.word);
@@ -159,6 +165,7 @@ export const useTrainingCard = () => {
     closeWrongAnswers,
     handleIsTranslateToEnglish,
     handleExcludeLearntWords,
+    resetResults,
     excludeLearntWords,
     isTranslateToEnglish,
     isWordsShow,

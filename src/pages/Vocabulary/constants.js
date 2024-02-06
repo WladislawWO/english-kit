@@ -1,5 +1,929 @@
 export const data = [
   {
+    word: 'fuse',
+    translation: 'запобіжник',
+    explanation: 'детонатор',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'resentment',
+    translation: 'образа',
+    explanation: 'обурення',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'impervious',
+    translation: 'непроникний',
+    explanation: 'not allowing fluid to pass through.',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'moot',
+    translation: 'спірний',
+    explanation: 'обговорювати. to suggest something for discussion',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'plausible',
+    translation: 'правдоподібний',
+    explanation: 'seeming likely to be true, or able to be believed',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'uptight',
+    translation: 'напружений',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'commodity',
+    translation: 'товар',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'scowl',
+    translation: 'нахмуритися',
+    explanation: 'to look at someone or something with a very annoyed expression',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'repel',
+    translation: 'відштовхувати',
+    explanation: 'drive or force (an attack or attacker) back or away.',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'tentative',
+    translation: '',
+    explanation: 'not certain or confident',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'bustle',
+    translation: 'метушня',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'embankment',
+    translation: 'насип',
+    explanation: 'an artificial slope made of earth and/or stones',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'rumble',
+    translation: 'гул',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'chink',
+    translation: 'щілина',
+    explanation: 'бряжчання. a small narrow crack or opening. a light ringing sound',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'relentless',
+    translation: 'невблаганний',
+    explanation: 'continuing in a severe or extreme way',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'attorney',
+    translation: 'адвокат',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'immense',
+    translation: 'величезний',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'testimony',
+    translation: 'свідчення',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'grubby',
+    translation: 'брудний',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'assess',
+    translation: 'оцінити',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'vicinity',
+    translation: 'поблизу',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'mildly',
+    translation: "м'яко",
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'tally',
+    translation: '',
+    explanation: 'a current score or amount. agree or correspond.',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'derision',
+    translation: 'глузування',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'preliminary',
+    translation: 'попередній',
+    explanation: 'an event or action that introduces or prepares for something else',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'settlement',
+    translation: '',
+    explanation: 'an official agreement that finishes an argument',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'deplore',
+    translation: 'жалкувати',
+    explanation: 'to say or think that something is very bad',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'infatuation',
+    translation: 'закоханість',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'hobo',
+    translation: 'бомж',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'craving',
+    translation: 'тяга',
+    subject: 'Tutoring',
+  },
+  {
+    word: 'avert',
+    translation: 'відвертати',
+    subject: 'Tutoring',
+  },
+  {
+    word: 'bruise',
+    translation: 'синяк',
+    subject: 'Tutoring',
+  },
+  {
+    word: 'diligently',
+    translation: 'старанно',
+    subject: 'Tutoring',
+  },
+  {
+    word: 'strive',
+    translation: 'прагнути',
+    subject: 'Tutoring',
+  },
+  {
+    word: 'bid',
+    translation: 'ставка',
+    subject: 'Tutoring',
+  },
+  {
+    word: 'nuance',
+    translation: 'нюанс',
+    subject: 'Tutoring',
+  },
+  {
+    word: 'dorm',
+    translation: 'гуртожиток',
+    subject: 'Tutoring',
+  },
+  {
+    word: 'beehive',
+    translation: 'вулик',
+    subject: 'Tutoring',
+  },
+  {
+    word: 'sagging',
+    translation: 'провисання',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'depravity',
+    translation: 'розбещеність',
+    explanation: 'moral corruption; wickedness.',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'witticism',
+    translation: 'дотепність',
+    explanation: 'глузування',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'retrospectively',
+    translation: 'ретроспективно',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'disgruntled',
+    translation: 'незадоволений',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'flawless',
+    translation: 'бездоганний',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'tenancy',
+    translation: 'оренда',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'convey',
+    translation: 'передати',
+    explanation: 'to express a thought, feeling, or idea so that it is understood by other people',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'inquest',
+    translation: 'розслідування',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'cessation',
+    translation: 'припинення',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'deplorable',
+    translation: 'плачевний',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'endearing',
+    translation: 'привабливий',
+    explanation: 'inspiring love or affection.',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'preliminary',
+    translation: 'попередній',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'cope',
+    translation: 'впоратися',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'premeditation',
+    translation: '',
+    explanation: 'the action of planning something (especially a crime) beforehand.',
+    subject: "The Cuckoo's Calling'",
+  },
+  {
+    word: 'gait',
+    translation: 'хода',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'scarf',
+    translation: 'шарф',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'inexplicable',
+    translation: 'незрозумілий',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'contemporary',
+    translation: 'сучасний',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'soothe',
+    translation: 'заспокоювати',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'anticipation',
+    translation: 'очікування',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'cordial',
+    translation: '',
+    explanation: 'warm and friendly.',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'settee',
+    translation: 'диван',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'obituary',
+    translation: 'некролог',
+    explanation: 'a notice of a death, especially in a newspaper, typically including a brief biography of the deceased person',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'suppress',
+    translation: 'придушити',
+    explanation: 'forcibly put an end to.',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'imply',
+    translation: 'мати на увазі',
+    explanation: 'to communicate an idea or feeling without saying it directly',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'acquiesce',
+    translation: 'погоджуватися',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'deception',
+    translation: 'обман',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'sleight',
+    translation: 'спритність',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'diligent',
+    translation: 'старанний',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'solace',
+    translation: 'розрада',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'apprehension',
+    translation: 'побоювання',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'indignation',
+    translation: 'обурення',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'intervene',
+    translation: 'втручатися',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'revelation',
+    translation: 'одкровення',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'incoherent',
+    translation: 'незрозумілий',
+    explanation: '(of spoken or written language) expressed in an incomprehensible or confusing way; unclear.',
+    subject: 'The Prestige',
+  },
+  {
+    word: 'mitigation',
+    translation: 'послаблення',
+  },
+  {
+    word: 'reconcile',
+    translation: 'примиритися',
+  },
+  {
+    word: 'ill-mannered',
+    translation: 'невихований',
+  },
+  {
+    word: 'tight-fisted',
+    translation: 'скупий',
+  },
+  {
+    word: 'cunning',
+    translation: 'вправний',
+    explanation: 'хитрий',
+  },
+  {
+    word: 'moody',
+    translation: '',
+    explanation: 'If someone is moody, their moods change suddenly and they become angry or unhappy easily',
+  },
+  {
+    word: 'thrifty',
+    translation: 'економний',
+  },
+  {
+    word: 'discredit',
+    translation: 'дискредитація',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'attain',
+    translation: 'досягти',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'hereditary',
+    translation: 'спадковий',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'cavern',
+    translation: 'печера',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'lustrous',
+    translation: 'блискучий',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'bounteously',
+    translation: 'щедро',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'illimitable',
+    translation: 'необмежений',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'grudge',
+    translation: 'образа',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'distress',
+    translation: '',
+    explanation: 'a feeling of extreme worry, sadness, or pain',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'vanquish',
+    translation: 'перемогти',
+    subject: 'The Innocence of Father Brown',
+  },
+  {
+    word: 'merriment',
+    translation: 'веселість',
+  },
+  {
+    word: 'valour',
+    translation: 'доблесть',
+  },
+  {
+    word: 'sorely',
+    translation: 'вкрай',
+    explanation: 'extremely; very much:',
+  },
+  {
+    word: 'gainsay',
+    translation: 'заперечувати',
+  },
+  {
+    word: 'seemingly',
+    translation: 'очевидно',
+  },
+  {
+    word: 'irritable',
+    translation: 'дратівливий',
+  },
+  {
+    word: 'notorious',
+    translation: 'горезвісний',
+  },
+  {
+    word: 'resemble',
+    translation: 'бути схожим на когось',
+  },
+  {
+    word: 'resemblance',
+    translation: 'схожість',
+  },
+  {
+    word: 'guardrail',
+    translation: 'огородження',
+  },
+  {
+    word: 'tolerance',
+    translation: 'терпимість',
+    explanation: 'допустиме відхилення',
+  },
+  {
+    word: 'baffle',
+    translation: '',
+    explanation: 'totally bewilder or perplex.',
+  },
+  {
+    word: 'illustrative',
+    translation: 'ілюстративний',
+  },
+  {
+    word: 'deliberate',
+    translation: 'навмисний',
+    explanation: 'done consciously and intentionally.',
+  },
+  {
+    word: 'literate',
+    translation: 'грамотний',
+  },
+  {
+    word: 'anticipate',
+    translation: 'передбачити',
+  },
+  {
+    word: 'overly',
+    translation: 'надмірно',
+  },
+  {
+    word: 'overreach',
+    translation: 'to fail by trying to achieve, spend, or do more than you can manage',
+    explanation: 'to make a bigger claim than is reasonable',
+  },
+  {
+    word: 'trustworthy',
+    translation: 'надійний',
+  },
+  {
+    word: 'oversight',
+    translation: 'нагляд',
+    explanation: 'необачність',
+  },
+  {
+    word: 'citation',
+    translation: 'цитування',
+  },
+  {
+    word: 'reasoning',
+    translation: 'міркування',
+  },
+  {
+    word: 'infer',
+    translation: 'зробити висновок',
+  },
+  {
+    word: 'imbue',
+    translation: 'просочити',
+    explanation: 'надихати',
+  },
+  {
+    word: 'roundabout',
+    translation: 'круговий рух',
+  },
+  {
+    word: 'pavement',
+    translation: 'тротуар',
+  },
+  {
+    word: 'plump',
+    translation: 'пухкий',
+  },
+  {
+    word: 'roam',
+    translation: 'тинятися',
+  },
+  {
+    word: 'sentry',
+    translation: 'вартовий',
+  },
+  {
+    word: 'ingrate',
+    translation: 'невдячний',
+  },
+  {
+    word: 'knack',
+    translation: 'хист',
+  },
+  {
+    word: 'usurper',
+    translation: 'узурпатор',
+  },
+  {
+    word: 'manned',
+    translation: 'керований людиною',
+  },
+  {
+    word: 'omen',
+    translation: 'прикмета',
+  },
+  {
+    word: 'hush',
+    translation: 'тиша',
+  },
+  {
+    word: 'reign',
+    translation: 'правління',
+    explanation: 'to be the king or queen of a country. to be the main feeling or quality in a situation or person',
+  },
+  {
+    word: 'gracious',
+    translation: 'милостивий',
+  },
+  {
+    word: 'trait',
+    translation: 'риса',
+    explanation: 'особливість',
+  },
+  {
+    word: 'crave',
+    translation: 'crave',
+  },
+  {
+    word: 'imp',
+    translation: 'бісеня',
+    explanation: 'a small, mischievous devil or sprite.',
+  },
+  {
+    word: 'mink',
+    translation: 'норка',
+  },
+  {
+    word: 'sleek',
+    translation: 'гладкий',
+    explanation: '(especially of hair, clothes, or shapes) smooth, shiny, and lying close to the body, and therefore looking well cared for; not untidy and with no parts sticking out',
+  },
+  {
+    word: 'skewered',
+    translation: 'на рожні',
+  },
+  {
+    word: 'skewer',
+    translation: 'шпажка',
+    explanation: 'проколювати',
+  },
+  {
+    word: 'magnitude',
+    translation: 'велич',
+  },
+  {
+    word: 'prone',
+    translation: 'схильні',
+  },
+  {
+    word: 'prematurely',
+    translation: 'передчасно',
+  },
+  {
+    word: 'solely',
+    translation: 'виключно',
+  },
+  {
+    word: 'fuzzy',
+    translation: 'нечіткий',
+  },
+  {
+    word: 'intimidating',
+    translation: 'страшно',
+  },
+  {
+    word: 'scrape',
+    translation: 'подряпина',
+    explanation: 'скребіння',
+  },
+  {
+    word: 'barn',
+    translation: 'сарай',
+  },
+  {
+    word: 'homestead',
+    translation: 'садиба',
+  },
+  {
+    word: 'thaw',
+    translation: 'відлига',
+  },
+  {
+    word: 'fuss',
+    translation: 'метушня',
+  },
+  {
+    word: 'feud',
+    translation: 'ворожнеча',
+  },
+  {
+    word: 'vantage',
+    translation: 'перевага',
+  },
+  {
+    word: 'consolation',
+    translation: 'розрада',
+  },
+  {
+    word: 'itinerate',
+    translation: 'подорожувати',
+  },
+  {
+    word: 'deify',
+    translation: 'обожнювати',
+  },
+  {
+    word: 'destitute',
+    translation: 'знедолений',
+  },
+  {
+    word: 'holster',
+    translation: 'кобура',
+  },
+  {
+    word: 'fiddle',
+    translation: 'скрипка',
+  },
+  {
+    word: 'tart',
+    translation: 'терпкий',
+  },
+  {
+    word: 'swindle',
+    translation: 'шахрайство',
+  },
+  {
+    word: 'sedate',
+    translation: 'спокійний',
+  },
+  {
+    word: 'adultery',
+    translation: 'подружня зрада',
+  },
+  {
+    word: 'altitude',
+    translation: 'висота над рівнем моря',
+  },
+  {
+    word: 'reluctant',
+    translation: 'неохоче',
+    explanation: 'not willing to do something and therefore slow to do it',
+  },
+  {
+    word: 'recant',
+    translation: 'зрікатися',
+    explanation: 'to announce in public that your past beliefs or statements were wrong and that you no longer agree with them',
+  },
+  {
+    word: 'dismiss',
+    translation: 'звільнити',
+  },
+  {
+    word: 'passage',
+    translation: 'переїзд',
+    explanation: 'уривок. a short piece of writing or music that is part of a larger piece of work',
+  },
+  {
+    word: 'sinew',
+    translation: 'сухожилля',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'mingle',
+    translation: 'змішувати',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'drowse',
+    translation: 'дрімати',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'staunch',
+    translation: 'вірний',
+    explanation: 'стійкий. always loyal in supporting a person, organization, or set of beliefs or opinions',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'onslaught',
+    translation: 'штурм',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'slink',
+    translation: 'прокрадатися',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'lope',
+    translation: '',
+    explanation: '(of a person or animal) to run taking long, relaxed steps',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'morsel',
+    translation: 'шматочок',
+    explanation: 'a small piece or amount of food; a mouthful.',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'dismay',
+    translation: 'розчарування',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'canopy',
+    translation: 'навіс',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'ravine',
+    translation: 'яр',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'chasm',
+    translation: 'прірва',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'precipice',
+    translation: 'урвище',
+    explanation: 'безодня',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'wail',
+    translation: 'зойк',
+    explanation: 'a prolonged high-pitched cry of pain, grief, or anger.',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'nohow',
+    translation: 'ніяк',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'aghast',
+    translation: 'приголомшений',
+    explanation: 'suddenly filled with strong feelings of shock and worry',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'malice',
+    translation: 'злоба',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'waver',
+    translation: 'коливатися',
+    explanation: 'to lose strength, determination, or purpose, especially temporarily',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'covet',
+    translation: 'жадати',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'quarrel',
+    translation: 'сварка',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'legit',
+    translation: 'законний',
+    explanation: 'conforming to the rules',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'contrive',
+    translation: 'надумати',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'clemency',
+    translation: 'помилування',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'embassy',
+    translation: 'посольство',
+    explanation: 'посланці',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'muzzle',
+    translation: 'морда',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'sluice',
+    translation: 'шлюз',
+    subject: 'The lord of the Rings',
+  },
+  {
+    word: 'diminish',
+    translation: 'зменшуватися',
+    subject: 'The lord of the Rings',
+  },
+  {
     word: 'establish',
     translation: 'встановити',
     explanation: 'to start a company or organization that will continue for a long time. to start having a relationship with, or communicating with another person, company, country, or organization',
@@ -560,11 +1484,6 @@ export const data = [
     subject: 'The lord of the Rings',
   },
   {
-    word: 'siege',
-    translation: 'облога',
-    subject: 'The lord of the Rings',
-  },
-  {
     word: 'breach',
     translation: 'розрив',
     explanation: 'an act of breaking a law, promise, agreement, or relationship',
@@ -770,7 +1689,7 @@ export const data = [
   },
   {
     word: 'fraternize',
-    translation: 'брататися',
+    translation: 'to meet socially with someone who belongs to a different or opposing group',
     subject: 'Inglourious Basterds',
   },
   {
@@ -895,9 +1814,9 @@ export const data = [
     subject: 'Inglourious Basterds',
   },
   {
-    word: 'relay **',
+    word: 'relay',
     translation: '',
-    explanation: '** to repeat something you have heard, or to broadcast a signal, message, or programme on television or radio',
+    explanation: 'to repeat something you have heard, or to broadcast a signal, message, or programme on television or radio',
     subject: 'Inglourious Basterds',
   },
   {
@@ -1023,11 +1942,6 @@ export const data = [
   {
     word: 'baffling',
     translation: 'незрозумілий',
-    subject: 'Inglourious Basterds',
-  },
-  {
-    word: 'bestow',
-    translation: 'дарувати',
     subject: 'Inglourious Basterds',
   },
   {
@@ -1462,7 +2376,7 @@ export const data = [
   {
     word: 'rural',
     translation: 'сільський',
-    subject: 'Pluto',
+    subject: 'tutoring',
   },
   {
     word: 'countryside',
@@ -1536,11 +2450,6 @@ export const data = [
   {
     word: 'drastically',
     translation: 'різко',
-    subject: 'Pluto',
-  },
-  {
-    word: 'insubordination',
-    translation: 'непідпорядкування',
     subject: 'Pluto',
   },
   {
@@ -2159,6 +3068,7 @@ export const data = [
   {
     word: 'elated',
     translation: 'піднесений',
+    subject: 'tutoring',
   },
   {
     word: 'tedium',
@@ -2787,7 +3697,7 @@ export const data = [
     word: 'cheeky',
     translation: 'нахабний',
     explanation: 'безцеремонний',
-    subject: 'Django Unchained',
+    subject: 'tutoring',
   },
   {
     word: 'pussyfoot',
@@ -3006,7 +3916,7 @@ export const data = [
     translation: 'кабан',
   },
   {
-    word: 'cobbles',
+    word: 'cobble',
     translation: 'бруківка',
   },
   {
@@ -3118,6 +4028,7 @@ export const data = [
   {
     word: 'comply',
     translation: 'дотримуватися',
+    subject: 'tutoring',
   },
   {
     word: 'indiscreet',
@@ -3459,8 +4370,8 @@ export const data = [
     translation: 'Яр',
   },
   {
-    word: 'growled',
-    translation: 'Прогарчав',
+    word: 'growl',
+    translation: 'гарчати',
   },
   {
     word: 'indifferently',
@@ -3702,7 +4613,7 @@ export const data = [
   },
   {
     word: 'dispensable',
-    translation: 'Незамінний',
+    translation: 'замінний',
   },
   {
     word: 'miscarriage',
