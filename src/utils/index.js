@@ -8,7 +8,7 @@ export const convertToVocab = (list) => list.split(/\n+/g).map((i) => ({
   ...(i.split('=').length === 3 && { explanation: i.split('=')[2].trim() }),
   // subject: 'The Innocence of Father Brown',
   // subject: 'Tutoring',
-  subject: "The Cuckoo's Calling'",
+  subject: 'Behave',
 }));
 
 /* eslint-disable no-param-reassign */

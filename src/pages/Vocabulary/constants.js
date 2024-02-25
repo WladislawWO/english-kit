@@ -1,5 +1,384 @@
 export const data = [
   {
+    word: 'reprehensible',
+    translation: 'осудливий',
+    subject: 'Behave',
+  },
+  {
+    word: 'prior',
+    translation: 'апріорний',
+    subject: 'Behave',
+  },
+  {
+    word: 'prospect',
+    translation: 'перспектива',
+    subject: 'Behave',
+  },
+  {
+    word: 'reciprocity',
+    translation: 'взаємодія',
+    explanation: 'behaviour in which two people or groups of people give each other help and advantages',
+    subject: 'Behave',
+  },
+  {
+    word: 'quagmire',
+    translation: 'болото',
+    explanation: 'скрутне становище',
+    subject: 'Behave',
+  },
+  {
+    word: 'distortion',
+    translation: 'спотворення',
+    subject: 'Behave',
+  },
+  {
+    word: 'lopsided',
+    translation: 'однобокий',
+    explanation: 'with one side bigger, higher, etc. than the other',
+    subject: 'Behave',
+  },
+  {
+    word: 'ubiquitous',
+    translation: 'всюдисущий',
+    subject: 'Behave',
+  },
+  {
+    word: 'snarl',
+    translation: 'гарчати',
+    subject: 'Behave',
+  },
+  {
+    word: 'grapple',
+    translation: 'зачепитися',
+    explanation: 'engage in a close fight or struggle without weapons; wrestle.',
+    subject: 'Behave',
+  },
+  {
+    word: 'viscera',
+    translation: 'нутрощі',
+    subject: 'Behave',
+  },
+  {
+    word: 'blunt',
+    translation: 'притуплений',
+    explanation: '(of a knife, pencil, etc.) having a worn-down edge or point; not sharp.',
+    subject: 'Behave',
+  },
+  {
+    word: 'puncture',
+    translation: 'прокол',
+    explanation: 'a small hole in a tire resulting in an escape of air.',
+    subject: 'Behave',
+  },
+  {
+    word: 'pertinent',
+    translation: 'доречний',
+    subject: 'Behave',
+  },
+  {
+    word: 'pimply',
+    translation: 'прищавий',
+    subject: 'Behave',
+  },
+  {
+    word: 'ambiguously',
+    translation: 'неоднозначно',
+    subject: 'Behave',
+  },
+  {
+    word: 'ditto',
+    translation: 'те саме',
+    subject: 'Behave',
+  },
+  {
+    word: 'excel',
+    translation: 'відзначатися',
+    explanation: 'to be extremely good at something:',
+    subject: 'Behave',
+  },
+  {
+    word: 'preferentially',
+    translation: 'переважно',
+    subject: 'Behave',
+  },
+  {
+    word: 'ambiguity',
+    translation: 'двозначність',
+    subject: 'Behave',
+  },
+  {
+    word: 'profoundly',
+    translation: 'глибоко',
+    explanation: 'deeply or extremely',
+    subject: 'Behave',
+  },
+  {
+    word: 'affiliation',
+    translation: 'приналежність',
+    subject: 'Behave',
+  },
+  {
+    word: 'reconciliation',
+    translation: 'примирення',
+    subject: 'Behave',
+  },
+  {
+    word: 'exposure',
+    translation: 'контакт',
+    explanation: 'the fact of experiencing something or being affected by it because of being in a particular situation or place',
+    subject: 'Behave',
+  },
+  {
+    word: 'efficacy',
+    translation: 'ефективність',
+    subject: 'Behave',
+  },
+  {
+    word: 'poignant',
+    translation: 'болісний',
+    explanation: 'causing or having a very sharp feeling of sadness',
+    subject: 'Behave',
+  },
+  {
+    word: 'intertwine',
+    translation: 'переплітаються',
+    subject: 'Behave',
+  },
+  {
+    word: 'abnormal',
+    translation: 'ненормальний',
+    subject: 'Behave',
+  },
+  {
+    word: 'innate',
+    translation: 'вроджений',
+    subject: 'Behave',
+  },
+  {
+    word: 'demarcate',
+    translation: 'розмежувати',
+    subject: 'Behave',
+  },
+  {
+    word: 'havoc',
+    translation: 'хаос',
+    subject: 'Behave',
+  },
+  {
+    word: 'stimulus',
+    translation: 'стимул',
+    subject: 'Behave',
+  },
+  {
+    word: 'stimuli',
+    translation: 'стимули',
+    subject: 'Behave',
+  },
+  {
+    word: 'fetal',
+    translation: 'зародковий',
+    explanation: 'утробний',
+    subject: 'Behave',
+  },
+  {
+    word: 'fetus',
+    translation: 'ембріон',
+    explanation: 'зародок',
+    subject: 'Behave',
+  },
+  {
+    word: 'encompass',
+    translation: 'охоплювати',
+    subject: 'Behave',
+  },
+  {
+    word: 'umpteen',
+    translation: 'безліч',
+    subject: 'Behave',
+  },
+  {
+    word: 'millennia',
+    translation: 'тисячоліть',
+    subject: 'Behave',
+  },
+  {
+    word: 'pretentiously',
+    translation: '',
+    explanation: 'in a way that attempts to make you appear or sound more important or clever than you are',
+    subject: 'Behave',
+  },
+  {
+    word: 'malleable',
+    translation: 'пластичний',
+    explanation: 'A malleable substance is easily changed into a new shape',
+    subject: 'Behave',
+  },
+  {
+    word: 'gewgaw',
+    translation: '',
+    explanation: 'a showy thing, especially one that is useless or worthless',
+    subject: 'Behave',
+  },
+  {
+    word: 'versatility',
+    translation: 'універсальність',
+    subject: 'Behave',
+  },
+  {
+    word: 'assimilate',
+    translation: 'засвоювати',
+    explanation: 'to become part of a group, country, society, etc., or to make someone or something become part of a group, country, society.  to understand and remember new information and make it part of your basic knowledge so that you can use it as your own. to absorb food or a substance into the tissue of a living organism',
+    subject: 'Behave',
+  },
+  {
+    word: 'austerity',
+    translation: '',
+    explanation: 'the condition of living without unnecessary things and without comfort, with limited money or goods, or a practice, habit, or experience that is typical of this',
+  },
+  {
+    word: 'conviviality',
+    translation: 'товариськість',
+  },
+  {
+    word: 'disposition',
+    translation: 'характер',
+    explanation: 'the particular type of character that a person naturally has',
+  },
+  {
+    word: 'bridle',
+    translation: 'вуздечка',
+  },
+  {
+    word: 'clump',
+    translation: 'грудка',
+  },
+  {
+    word: 'doctrine',
+    translation: 'доктрина',
+    explanation: 'вчення',
+  },
+  {
+    word: 'cliché',
+    translation: 'кліше',
+  },
+  {
+    word: 'imprisoned',
+    translation: "ув'язнений",
+  },
+  {
+    word: 'nemesis',
+    translation: 'доля',
+  },
+  {
+    word: 'transgression',
+    translation: 'проступок',
+  },
+  {
+    word: 'seamlessly',
+    translation: 'плавно',
+  },
+  {
+    word: 'resilience',
+    translation: 'стійкість',
+  },
+  {
+    word: 'consecutively',
+    translation: 'послідовно',
+  },
+  {
+    word: 'crumple',
+    translation: "м'яти",
+  },
+  {
+    word: 'savor',
+    translation: 'смакувати',
+  },
+  {
+    word: 'inclusively',
+    translation: 'включно',
+  },
+  {
+    word: 'fraction',
+    translation: 'частка',
+  },
+  {
+    word: 'indisputable',
+    translation: 'незаперечний',
+    subject: 'Se7en',
+  },
+  {
+    word: 'grandeur',
+    translation: 'велич',
+    subject: 'Se7en',
+  },
+  {
+    word: 'contradiction',
+    translation: 'протиріччя',
+    subject: 'Se7en',
+  },
+  {
+    word: 'glaring',
+    translation: 'сліпучий',
+    explanation: 'кричущий',
+    subject: 'Se7en',
+  },
+  {
+    word: 'fece',
+    translation: 'кал',
+    subject: 'Se7en',
+  },
+  {
+    word: 'comprehend',
+    translation: 'розуміти',
+    subject: 'Se7en',
+  },
+  {
+    word: 'admissible',
+    translation: 'припустимий',
+    subject: 'Se7en',
+  },
+  {
+    word: 'plea',
+    translation: 'благання',
+    subject: 'Se7en',
+  },
+  {
+    word: 'nurture',
+    translation: 'виховує',
+    subject: 'Se7en',
+  },
+  {
+    word: 'discernible',
+    translation: 'помітний',
+    subject: 'Se7en',
+  },
+  {
+    word: 'banality',
+    translation: 'банальність',
+    subject: 'Se7en',
+  },
+  {
+    word: 'atonement',
+    translation: 'спокута',
+    subject: 'Se7en',
+  },
+  {
+    word: 'grease',
+    translation: 'мастило',
+    explanation: 'смалець',
+    subject: 'Se7en',
+  },
+  {
+    word: 'medieval',
+    translation: 'середньовічний',
+    subject: 'Se7en',
+  },
+  {
+    word: 'attrition',
+    translation: 'виснаження',
+    subject: 'Se7en',
+  },
+  {
     word: 'fuse',
     translation: 'запобіжник',
     explanation: 'детонатор',
@@ -269,11 +648,6 @@ export const data = [
     subject: "The Cuckoo's Calling'",
   },
   {
-    word: 'preliminary',
-    translation: 'попередній',
-    subject: "The Cuckoo's Calling'",
-  },
-  {
     word: 'cope',
     translation: 'впоратися',
     subject: "The Cuckoo's Calling'",
@@ -460,11 +834,6 @@ export const data = [
     subject: 'The Innocence of Father Brown',
   },
   {
-    word: 'grudge',
-    translation: 'образа',
-    subject: 'The Innocence of Father Brown',
-  },
-  {
     word: 'distress',
     translation: '',
     explanation: 'a feeling of extreme worry, sadness, or pain',
@@ -507,10 +876,6 @@ export const data = [
   {
     word: 'resemble',
     translation: 'бути схожим на когось',
-  },
-  {
-    word: 'resemblance',
-    translation: 'схожість',
   },
   {
     word: 'guardrail',
@@ -1443,6 +1808,7 @@ export const data = [
   {
     word: 'aberrant',
     translation: 'помилковий',
+    explanation: 'different from what is typical or usual, especially in an unacceptable way',
   },
   {
     word: 'eloquent',
@@ -1700,6 +2066,7 @@ export const data = [
   {
     word: 'acute',
     translation: 'гострий',
+    explanation: 'used to describe intelligence, senses, etc. that are very good, accurate, and able to notice very small differences. If a bad situation is acute, it causes severe problems or damage',
     subject: 'Inglourious Basterds',
   },
   {
@@ -2376,7 +2743,7 @@ export const data = [
   {
     word: 'rural',
     translation: 'сільський',
-    subject: 'tutoring',
+    subject: 'Tutoring',
   },
   {
     word: 'countryside',
@@ -3068,7 +3435,7 @@ export const data = [
   {
     word: 'elated',
     translation: 'піднесений',
-    subject: 'tutoring',
+    subject: 'Tutoring',
   },
   {
     word: 'tedium',
@@ -3697,7 +4064,7 @@ export const data = [
     word: 'cheeky',
     translation: 'нахабний',
     explanation: 'безцеремонний',
-    subject: 'tutoring',
+    subject: 'Tutoring',
   },
   {
     word: 'pussyfoot',
@@ -3962,10 +4329,6 @@ export const data = [
     translation: 'відтік',
   },
   {
-    word: 'disgruntled',
-    translation: 'незадоволений',
-  },
-  {
     word: 'deem',
     translation: 'вважати',
   },
@@ -4028,7 +4391,7 @@ export const data = [
   {
     word: 'comply',
     translation: 'дотримуватися',
-    subject: 'tutoring',
+    subject: 'Tutoring',
   },
   {
     word: 'indiscreet',
@@ -4056,6 +4419,7 @@ export const data = [
   },
   {
     word: 'sprawl',
+    explanation: 'to spread the arms and legs out carelessly and untidily while sitting or lying down. especially of a city) to cover a large area of land with buildings, especially gradually over a period of time',
     translation: 'розростання',
   },
   {
