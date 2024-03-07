@@ -1,5 +1,17 @@
 export const data = [
   {
+    word: 'emission',
+    translation: 'емісія',
+  },
+  {
+    word: 'emit',
+    translation: 'випромінювати',
+  },
+  {
+    word: 'spoil',
+    translation: 'псувати',
+  },
+  {
     word: 'reprehensible',
     translation: 'осудливий',
     subject: 'Behave',

@@ -116,6 +116,7 @@ export const useTrainingCard = () => {
   const handleIsLearntOnly = () => {
     setIsLearntOnly((state) => !state);
     setIsToLearnOnly(false);
+    setExcludeLearntWords((state) => !state);
     setActiveItem(0);
   };
 
@@ -144,6 +145,8 @@ export const useTrainingCard = () => {
     localStorage.setItem(VOCAB_INCORRECT_ANSWERS, incorrectResult.join(','));
     setLearntWords(correctResult);
     setWordsToLearn(incorrectResult);
+
+    toast.success('Saved');
   };
 
   return {

@@ -14,7 +14,7 @@ export function WordsList({ words, onClose }) {
           </div>
 
           <div className={st.linksContainer}>
-            <Links word={word} />
+            <Links word={word.word} />
           </div>
         </div>
       ))}
