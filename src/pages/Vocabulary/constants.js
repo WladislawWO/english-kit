@@ -4484,7 +4484,8 @@ export const data = [
   },
   {
     word: 'snigger',
-    translation: 'snigger',
+    translation: 'хихикати',
+    explanation: 'to laugh at someone or something in a silly and often unkind way',
   },
   {
     word: 'amicably',

@@ -1,12 +1,13 @@
 import { useTrainingCard } from './useTrainingCard';
-import { ResetIcon, SettingsIcon } from '../../../icons';
+import { DailyActivitiesIcon, ResetIcon, SettingsIcon } from '../../../icons';
 import { Settings } from './Settings';
 import { Footer } from './Footer';
 import { WordsList } from './WordsList';
-import Links from './Links';
-import st from './styles.module.scss';
 import { EnglishToUkrainian } from './EnglishToUkrainian';
 import { UkrainianToEnglish } from './UkrainianToEnglish';
+import { StaticCard } from '../StaticCard';
+import Links from './Links';
+import st from './styles.module.scss';
 
 export function TrainingCard() {
   const {
@@ -29,6 +30,11 @@ export function TrainingCard() {
     handleIsTranslateToEnglish,
     handleExcludeLearntWords,
     resetResults,
+    handleChooseDailyWords,
+    handleChangeDailyWords,
+    learntWords,
+    wordsToLearn,
+    isDailyWords,
     excludeLearntWords,
     isTranslateToEnglish,
     isWordsShow,
@@ -46,70 +52,77 @@ export function TrainingCard() {
   } = useTrainingCard();
 
   return (
-    <div className={st.container}>
-      {!isSettings && !isWordsShow && !isCorrectAnswersShow && !isWrongAnswersShow && (
-      <>
-        <div className={st.rightMenu}>
-          <ResetIcon className={st.settingsIcon} onClick={resetResults} />
-          <SettingsIcon className={st.settingsIcon} onClick={handleSettings} />
-        </div>
-        <div className={st.header}>
-          <div onClick={openWords} className={st.headerItem}>
-            Words:
-            {' '}
-            {list.length}
-          </div>
+    <div className={st.mainWrapper}>
+      <StaticCard learntWords={learntWords} wordsToLearn={wordsToLearn} />
 
-          <div onClick={openCorrectAnswers} className={st.headerItem}>
-            Correct answers:
-            {' '}
-            {correct.length}
-          </div>
-
-          <div onClick={openWrongAnswers} className={st.headerItem}>
-            Incorrect answers:
-            {' '}
-            {inCorrect.length}
-          </div>
-
-          <div onClick={openWrongAnswers} className={st.headerItem}>
-            Answers:
-            {' '}
-            {inCorrect.length + correct.length}
-          </div>
-        </div>
-
-        {isTranslateToEnglish
-          ? (
-            <UkrainianToEnglish
-              {...item}
-              isVisible={isVisible}
-              handleSetVisible={handleSetVisible}
-              handleWordClick={handleWordClick}
+      <div className={st.container}>
+        {!isSettings && !isWordsShow && !isCorrectAnswersShow && !isWrongAnswersShow && (
+        <>
+          <div className={st.rightMenu}>
+            <DailyActivitiesIcon
+              className={st.dailyActivitiesIcon}
+              onClick={handleChooseDailyWords}
             />
-          )
-          : (
-            <EnglishToUkrainian
-              {...item}
-              isVisible={isVisible}
-              handleSetVisible={handleSetVisible}
-              handleWordClick={handleWordClick}
-            />
-          )}
+            <ResetIcon className={st.settingsIcon} onClick={resetResults} />
+            <SettingsIcon className={st.settingsIcon} onClick={handleSettings} />
+          </div>
+          <div className={st.header}>
+            <div onClick={openWords} className={st.headerItem}>
+              Words:
+              {' '}
+              {list.length}
+            </div>
 
-        <Links word={item.word} />
+            <div onClick={openCorrectAnswers} className={st.headerItem}>
+              Correct answers:
+              {' '}
+              {correct.length}
+            </div>
 
-        <Footer
-          handleSetVisible={handleSetVisible}
-          handleNext={handleNext}
-          handleKnow={handleKnow}
-          handleNotKnow={handleNotKnow}
-          handleSaveTheResults={handleSaveTheResults}
-        />
-      </>
-      )}
+            <div onClick={openWrongAnswers} className={st.headerItem}>
+              Incorrect answers:
+              {' '}
+              {inCorrect.length}
+            </div>
 
-      {isSettings && (
+            <div onClick={openWrongAnswers} className={st.headerItem}>
+              Answers:
+              {' '}
+              {inCorrect.length + correct.length}
+            </div>
+          </div>
+
+          {isTranslateToEnglish
+            ? (
+              <UkrainianToEnglish
+                {...item}
+                isVisible={isVisible}
+                handleSetVisible={handleSetVisible}
+                handleWordClick={handleWordClick}
+              />
+            )
+            : (
+              <EnglishToUkrainian
+                {...item}
+                isVisible={isVisible}
+                handleSetVisible={handleSetVisible}
+                handleWordClick={handleWordClick}
+              />
+            )}
+
+          <Links word={item.word} />
+
+          <Footer
+            handleSetVisible={handleSetVisible}
+            handleNext={handleNext}
+            handleKnow={handleKnow}
+            handleNotKnow={handleNotKnow}
+            handleSaveTheResults={handleSaveTheResults}
+          />
+        </>
+        )}
+
+        {isSettings && (
         <Settings
           handleIsLearntOnly={handleIsLearntOnly}
           handleIsToLearnOnly={handleIsToLearnOnly}
@@ -117,26 +130,29 @@ export function TrainingCard() {
           handleExcludeLearntWords={handleExcludeLearntWords}
           chooseSubject={chooseSubject}
           handleIsTranslateToEnglish={handleIsTranslateToEnglish}
+          handleChangeDailyWords={handleChangeDailyWords}
+          isDailyWords={isDailyWords}
           excludeLearntWords={excludeLearntWords}
           isLearntOnly={isLearntOnly}
           isToLearnOnly={isToLearnOnly}
           subject={subject}
           isTranslateToEnglish={isTranslateToEnglish}
         />
-      )}
+        )}
 
-      {isWordsShow && (
+        {isWordsShow && (
         <WordsList words={list} onClose={closeWords} />
-      )}
+        )}
 
-      {isCorrectAnswersShow && (
+        {isCorrectAnswersShow && (
         <WordsList words={correct} onClose={closeCorrectAnswers} />
-      )}
+        )}
 
-      {isWrongAnswersShow && (
+        {isWrongAnswersShow && (
         <WordsList words={inCorrect} onClose={closeWrongAnswers} />
-      )}
+        )}
 
+      </div>
     </div>
   );
 }

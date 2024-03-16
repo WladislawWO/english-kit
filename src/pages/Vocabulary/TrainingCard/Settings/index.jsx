@@ -8,6 +8,8 @@ export function Settings({
   handleIsToLearnOnly,
   handleIsLearntOnly,
   handleIsTranslateToEnglish,
+  handleChangeDailyWords,
+  isDailyWords,
   isTranslateToEnglish,
   isToLearnOnly,
   isLearntOnly,
@@ -19,6 +21,11 @@ export function Settings({
   return (
     <div className={st.settingsContainer}>
       <CloseIcon className={st.settingsIcon} onClick={handleSettings} />
+
+      <div onClick={handleChangeDailyWords} className={st.settingsRow}>
+        <input type="checkbox" checked={isDailyWords} />
+        Daily words
+      </div>
 
       <div onClick={handleIsToLearnOnly} className={st.settingsRow}>
         <input type="checkbox" checked={isToLearnOnly} />

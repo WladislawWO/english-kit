@@ -2,11 +2,13 @@ import { useMemo, useState } from 'react';
 import toast from 'react-hot-toast';
 import { data } from '../constants';
 import { shuffle, formatLocalStorageData, updateWithAnimation } from '../../../utils';
-import { VOCAB_CORRECT_ANSWERS, VOCAB_INCORRECT_ANSWERS } from '../../../constants/localStorage';
+import { DAILY_WORDS, VOCAB_CORRECT_ANSWERS, VOCAB_INCORRECT_ANSWERS } from '../../../constants/localStorage';
+import { DAILY_WORDS_AMOUNT } from './constants';
 
 export const useTrainingCard = () => {
   const defaultLearntWords = formatLocalStorageData(localStorage.getItem(VOCAB_CORRECT_ANSWERS));
   const defaultWordsToLearn = formatLocalStorageData(localStorage.getItem(VOCAB_INCORRECT_ANSWERS));
+  const defaultDailyWords = formatLocalStorageData(localStorage.getItem(DAILY_WORDS));
 
   const [activeItem, setActiveItem] = useState(0);
   const [subject, setSubject] = useState(null);
@@ -22,9 +24,11 @@ export const useTrainingCard = () => {
   const [isCorrectAnswersShow, setCorrectAnswersShow] = useState(false);
   const [isWrongAnswersShow, setWrongAnswersShow] = useState(false);
   const [learntWords, setLearntWords] = useState(defaultLearntWords);
+  const [isDailyWords, setIsDailyWords] = useState(true);
   const [wordsToLearn, setWordsToLearn] = useState(defaultWordsToLearn);
+  const [dailyWords, setDailyWords] = useState(defaultDailyWords || []);
 
-  const list = useMemo(() => {
+  const filteredList = useMemo(() => {
     let result = data;
     if (isLearntOnly) {
       result = result.filter((i) => learntWords.includes(i.word));
@@ -38,8 +42,16 @@ export const useTrainingCard = () => {
       result = result.filter((i) => i.subject === subject.value);
     }
 
-    return shuffle(result).slice(0, 50);
-  }, [isLearntOnly, isToLearnOnly, subject, excludeLearntWords]);
+    return shuffle(result).slice(0, DAILY_WORDS_AMOUNT);
+  }, [isLearntOnly, isToLearnOnly, subject, excludeLearntWords, dailyWords]);
+
+  const list = useMemo(() => {
+    if (isDailyWords) {
+      return data.filter((i) => dailyWords.includes(i.word));
+    }
+
+    return filteredList;
+  }, [filteredList, isDailyWords, dailyWords]);
 
   const item = list[activeItem] || {};
 
@@ -84,6 +96,10 @@ export const useTrainingCard = () => {
 
   const handleIsTranslateToEnglish = () => {
     setIsTranslateToEnglish((state) => !state);
+  };
+
+  const handleChangeDailyWords = () => {
+    setIsDailyWords((state) => !state);
   };
 
   const handleWordClick = () => {
@@ -132,6 +148,15 @@ export const useTrainingCard = () => {
     setCorrect([]);
   };
 
+  const handleChooseDailyWords = () => {
+    const newDailyWords = filteredList.map((i) => i.word);
+
+    setDailyWords(newDailyWords);
+    localStorage.setItem(DAILY_WORDS, newDailyWords.join(','));
+
+    toast.success('New words has been saved');
+  };
+
   const handleSaveTheResults = () => {
     const correctAnswersValues = correct.map((i) => i.word);
     const incorrectAnswersValues = inCorrect.map((i) => i.word);
@@ -169,6 +194,11 @@ export const useTrainingCard = () => {
     handleIsTranslateToEnglish,
     handleExcludeLearntWords,
     resetResults,
+    handleChooseDailyWords,
+    handleChangeDailyWords,
+    learntWords,
+    wordsToLearn,
+    isDailyWords,
     excludeLearntWords,
     isTranslateToEnglish,
     isWordsShow,
